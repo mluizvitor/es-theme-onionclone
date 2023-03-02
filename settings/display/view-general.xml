@@ -26,11 +26,11 @@
     </text>
 
     <helpsystem name="help">
-      <origin>0 1</origin>
-      <pos>0.016666667 0.98</pos>
+      <origin>0 0.5</origin>
+      <pos>0.016666667 0.95</pos>
 
-      <fontPath>${fontLight}</fontPath>
-      <fontSize>${fontSizeSmall}</fontSize>
+      <fontPath>${typefaceTitle}</fontPath>
+      <fontSize>${fontSizeBody}</fontSize>
 
       <textColor>${fgColor}</textColor>
       <iconColor>${accentColor}</iconColor>
@@ -42,7 +42,7 @@
       <origin>0 0</origin>
       <pos>0 0.15</pos>      <!-- 480x320 / 0x 48y -->
 
-      <fontPath>${typefaceRegular}</fontPath>
+      <fontPath>${typefaceBody}</fontPath>
       <fontSize>${fontSizeBody}</fontSize>
       <alignment>left</alignment>
 
@@ -74,13 +74,13 @@
       <color>${bgColor}</color>
       <zIndex>-10</zIndex>
     </image>
-    
+
     <text name="logoText">
       <origin>0 0.5</origin>      <!--vertical center-->
       <size>0.7 ${fontSizeH2}</size>
       <pos>0.033333333 0.075</pos>      <!--480x320 / 16x 28y-->
 
-      <fontPath>${typefaceTitleBold}</fontPath>
+      <fontPath>${typefaceTitle}</fontPath>
       <fontSize>${fontSizeH2}</fontSize>
       <forceUppercase>1</forceUppercase>
       <alignment>left</alignment>
@@ -130,7 +130,7 @@
       
       <color>${fgColor}</color>
       <fontSize>${fontSizeTiny}</fontSize>
-      <fontPath>${typefaceRegular}</fontPath>
+      <fontPath>${typefaceBody}</fontPath>
 
       <alignment>left</alignment>
       <zIndex>10</zIndex>
@@ -159,7 +159,7 @@
 
       <size>0.14 0.1</size>
       
-      <fontPath>${typefaceRegular}</fontPath>
+      <fontPath>${typefaceBody}</fontPath>
       <fontSize>${fontSizeBody}</fontSize>
       <lineSpacing>1</lineSpacing>
       <alignment>center</alignment>

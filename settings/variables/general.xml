@@ -7,12 +7,8 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <typefaceLight>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Regular.ttf</typefaceLight>
-    <typefaceRegular>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Medium.ttf</typefaceRegular>
-    <typefaceBold>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Bold.ttf</typefaceBold>
-
-    <typefaceTitleRegular>./assets/fonts/Teko/Teko-Medium.ttf</typefaceTitleRegular>
-    <typefaceTitleBold>./assets/fonts/Teko/Teko-SemiBold.ttf</typefaceTitleBold>
+    <typefaceBody>./assets/fonts/Arimo/Arimo-Medium.ttf</typefaceBody>
+    <typefaceTitle>./assets/fonts/Exo_2/Exo2-BoldItalic.ttf</typefaceTitle>
 
     <fontSizeH1>0.05</fontSizeH1>
     <fontSizeH2>0.04375</fontSizeH2>

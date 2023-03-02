@@ -110,7 +110,7 @@
 
     <text name="gridtile">
       <fontSize>${fontSizeSmall}</fontSize>
-      <fontPath>${typefaceRegular}</fontPath>
+      <fontPath>${typefaceBody}</fontPath>
       <alignment>left</alignment>
       <singleLineScroll>false</singleLineScroll>
       <lineSpacing>0.9</lineSpacing>
@@ -130,7 +130,7 @@
       <size ifSubset="Ratio:5-3">0.58 ${fontSizeSmall}</size>
 
       <fontSize>${fontSizeSmall}</fontSize>
-      <fontPath>${typefaceRegular}</fontPath>
+      <fontPath>${typefaceBody}</fontPath>
       <alignment>left</alignment>
       <zIndex>10</zIndex>
 

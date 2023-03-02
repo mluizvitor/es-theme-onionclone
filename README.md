@@ -2,7 +2,7 @@
 
 - [x] Remove unused assets
 - [x] Update color schemes to the used on OnionOS default theme
-- [ ] Update typefaces
+- [x] Update typefaces
 - [ ] Replace icons
 - [ ] Add new logo files
 

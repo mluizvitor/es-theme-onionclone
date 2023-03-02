@@ -16,7 +16,7 @@
   <!-- Menu Settings -->
   <view name="menu">
     <menuText name="menutext">
-      <fontPath>${typefaceRegular}</fontPath>
+      <fontPath>${typefaceBody}</fontPath>
       <fontSize>${menuFontSizeBody}</fontSize>
 
       <selectedColor>${fgColor}</selectedColor>
@@ -27,19 +27,19 @@
     </menuText>
 
     <menuText name="menufooter">
-      <fontPath>${typefaceRegular}</fontPath>
+      <fontPath>${typefaceBody}</fontPath>
       <fontSize>${menuFontSizeSmall}</fontSize>
       <color>${fgColor}cc</color>
     </menuText>
 
     <menuTextSmall name="menutextsmall">
-      <fontPath>${typefaceRegular}</fontPath>
+      <fontPath>${typefaceBody}</fontPath>
       <fontSize>${menuFontSizeSmall}</fontSize>
       <color>${accentColor}</color>
     </menuTextSmall>
 
     <menuGroup name="menugroup">
-      <fontPath>${typefaceTitleBold}</fontPath>
+      <fontPath>${typefaceTitle}</fontPath>
       <fontSize>${menuFontBody}</fontSize>
 
       <color>${fgColor}</color>
@@ -48,7 +48,7 @@
     </menuGroup>
 
     <menuText name="menutitle">
-      <fontPath>${typefaceTitleBold}</fontPath>
+      <fontPath>${typefaceTitle}</fontPath>
       <fontSize>${menuFontSizeH1}</fontSize>
       <color>${fgColor}</color>
     </menuText>

@@ -92,7 +92,7 @@
 
 
       <color>ffffff</color>
-      <fontPath>${typefaceRegular}</fontPath>
+      <fontPath>${typefaceBody}</fontPath>
       <fontSize>${fontSizeSmall}</fontSize>
       <lineSpacing>0.9</lineSpacing>
     </text>
@@ -106,7 +106,7 @@
       <size>0.3 ${fontSizeTiny}</size>
 
       <fontSize>${fontSizeTiny}</fontSize>
-      <fontPath>${typefaceTitleBold}</fontPath>
+      <fontPath>${typefaceTitle}</fontPath>
       <forceUppercase>1</forceUppercase>
 
       <visible ifHelpPrompts="true">0</visible>
