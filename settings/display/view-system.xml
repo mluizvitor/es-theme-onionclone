@@ -31,66 +31,10 @@
       <defaultTransition>instant</defaultTransition>
     </carousel>
 
-    <!-- System Name -->
-    <text name="systemName" extra="true">
-      <origin>0 0</origin>
-      <pos>0.34375 0.05</pos>      <!-- 480x320 / 165x 16y -->
-
-      <size>0.58333333 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
-      <size ifSubset="Ratio:4-3">0.6375 ${fontSizeH1}</size>
-      <size ifSubset="Ratio:5-3">0.525 ${fontSizeH1}</size>
-
-      <size ifHelpPrompts="true">0.55 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
-      <size ifHelpPrompts="true" ifSubset="Ratio:4-3">0.6125 ${fontSizeH1}</size>
-      <size ifHelpPrompts="true" ifSubset="Ratio:5-3">0.48 ${fontSizeH1}</size>
-
-      <color>ffffff</color>
-
-      <text>${system.fullName}</text>
-      <fontPath>${typefaceTitleBold}</fontPath>
-      <fontSize>${fontSizeH1}</fontSize>
-      <lineSpacing>1</lineSpacing>
-      <alignment>left</alignment>
-      <forceUppercase>1</forceUppercase>
-
-      <rotation>90</rotation>
-      <rotationOrigin>0 0.5</rotationOrigin>
-      <zIndex>10</zIndex>
-
-      <storyboard>
-        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
-        <animation property="x" from="0.32375" to="0.34375" duration="300" mode="EaseOut"/>
-      </storyboard>
-    </text>
-
+    
     <!-- Total games per system -->
     <text name="systemInfo">
-      <origin>0 0</origin>
-      <pos>0.3875 0.05</pos>      <!-- 480x320 / 186x 16y -->
-      
-      <size>0.58333333 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
-      <size ifSubset="Ratio:4-3">0.6375 ${fontSizeH1}</size>
-      <size ifSubset="Ratio:5-3">0.525 ${fontSizeH1}</size>
-
-      <size ifHelpPrompts="true">0.55 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
-      <size ifHelpPrompts="true" ifSubset="Ratio:4-3">0.6125 ${fontSizeH1}</size>
-      <size ifHelpPrompts="true" ifSubset="Ratio:5-3">0.48 ${fontSizeH1}</size>
-
-      <color>ffffffcc</color>
-
-      <fontSize>${fontSizeBody}</fontSize>
-      <alignment>left</alignment>
-      <forceUppercase>1</forceUppercase>
-      <fontPath>${typefaceTitleRegular}</fontPath>
-      <lineSpacing>1</lineSpacing>
-
-      <rotation>90</rotation>
-      <rotationOrigin>0 0.5</rotationOrigin>
-      <zIndex>10</zIndex>
-
-      <storyboard>
-        <animation property="opacity" from="0" to="1" duration="1000" mode="EaseOut"/>
-      </storyboard>
+      <visible>false</visible>
     </text>
 
     <!-- System Logo -->
@@ -106,7 +50,7 @@
     <!-- Logo Fallback -->
     <text name="logoText">
       <origin>0 0</origin>
-      <fontPath>${typefaceRegular}</fontPath>
+      <fontPath>${typefaceBody}</fontPath>
       <fontSize>${fontSizeH2}</fontSize>
       <lineSpacing>0.7</lineSpacing>,
 
