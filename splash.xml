@@ -8,20 +8,24 @@
 
   <view name="splash">
     <splash name="splash">
-      <backgroundColor>121212</backgroundColor>
+      <backgroundColor>242630</backgroundColor>
     </splash>
 
     <image name="background">
       <!-- Leave default for better OS/device portability -->
     </image>
     <image name="progressbar">
-      <color>454545</color>
-      <!-- <colorEnd>${primaryColorDarkVariant}</colorEnd> -->
+      <pos>0 1</pos>
+      <origin>0 1</origin>
+      <size>1 0.025</size>
+      <color>1D1E25</color>
       <roundCorners>0</roundCorners>
     </image>
     <image name="progressbar:active">
-      <color>DEDEDE</color>
-      <!-- <colorEnd>${primaryColor}</colorEnd> -->
+      <pos>0 1</pos>
+      <origin>0 1</origin>
+      <size>1 0.025</size>
+      <color>7247C2</color>
     </image>
     <text name="label">
       <alignment>center</alignment>

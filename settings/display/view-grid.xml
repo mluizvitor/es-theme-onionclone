@@ -71,7 +71,7 @@
     </gridtile>
 
     <gridtile name="selected">
-      <backgroundColor>${primaryColorAlt}</backgroundColor>
+      <backgroundColor>${bgColorAlt}</backgroundColor>
     </gridtile>
 
     <image name="gridtile.image">
@@ -120,7 +120,7 @@
       <pos>0 0.7</pos>
       <padding>0.066666667 0.0125 0.066666667 0.0125</padding>
 
-      <color>${primaryColorLightVariant}</color>
+      <color>${fgColor}</color>
     </text>
 
     <text name="md_name">

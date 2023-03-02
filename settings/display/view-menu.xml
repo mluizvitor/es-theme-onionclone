@@ -19,46 +19,44 @@
       <fontPath>${typefaceRegular}</fontPath>
       <fontSize>${menuFontSizeBody}</fontSize>
 
-      <selectedColor>121212</selectedColor>
-      <selectorColor>${primaryColorAlt}</selectorColor>
+      <selectedColor>${fgColor}</selectedColor>
+      <selectorColor>${accentColor}</selectorColor>
 
-      <color>${primaryColorLightVariant}</color>
-      <separatorColor>${primaryColorLightVariant}0f</separatorColor>
+      <color>${fgColor}B3</color>
+      <separatorColor>${accentColor}</separatorColor>
     </menuText>
 
     <menuText name="menufooter">
       <fontPath>${typefaceRegular}</fontPath>
       <fontSize>${menuFontSizeSmall}</fontSize>
-      <color>${primaryColorLightVariant}cc</color>
+      <color>${fgColor}cc</color>
     </menuText>
 
     <menuTextSmall name="menutextsmall">
       <fontPath>${typefaceRegular}</fontPath>
       <fontSize>${menuFontSizeSmall}</fontSize>
-      <color>${primaryColorAlt}</color>
+      <color>${accentColor}</color>
     </menuTextSmall>
 
     <menuGroup name="menugroup">
       <fontPath>${typefaceTitleBold}</fontPath>
-      <fontSize>${menuFontSizeSmall}</fontSize>
+      <fontSize>${menuFontBody}</fontSize>
 
-      <color>${primaryColorLightVariant}</color>
-      <separatorColor>${primaryColor}</separatorColor>
-
-      <backgroundColor>${primaryColorDarkVariant}</backgroundColor>
+      <color>${fgColor}</color>
+      <separatorColor>${accentColor}</separatorColor>
+      <backgroundColor>${bgColor}</backgroundColor>
     </menuGroup>
 
     <menuText name="menutitle">
       <fontPath>${typefaceTitleBold}</fontPath>
       <fontSize>${menuFontSizeH1}</fontSize>
-      <color>${primaryColorLightVariant}</color>
+      <color>${fgColor}</color>
     </menuText>
 
     <menuBackground name="menubg">
       <path>./assets/menu.png</path>
       <size>1 1</size>
-
-      <color>1a1a1a</color>
+      <color>${bgColorAlt}</color>
     </menuBackground>
 
     <menuButton name="menubutton">

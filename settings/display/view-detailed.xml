@@ -100,7 +100,7 @@
     <text name="md_description_label" extra="true">
       <text>${string.view.detailed.description}</text>
 
-      <color>${primaryColorLightVariant}</color>
+      <color>${fgColor}</color>
       <origin>0 0.5</origin>
       <pos>0.466666667 0.7375</pos>
       <size>0.3 ${fontSizeTiny}</size>

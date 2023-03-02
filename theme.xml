@@ -10,18 +10,6 @@
   <include lang="es">./settings/langs/es.xml</include>
   <include lang="pt">./settings/langs/pt.xml</include>
 
-  <subset name="colorScheme" displayName="${string.settings.colorSchemeTitle}">
-    <include name="blue" displayName="${string.settings.color.blue}">./settings/colors/blue.xml</include>
-    <include name="purple" displayName="${string.settings.color.purple}">./settings/colors/purple.xml</include>
-    <include name="pink" displayName="${string.settings.color.pink}">./settings/colors/pink.xml</include>
-    <include name="red" displayName="${string.settings.color.red}">./settings/colors/red.xml</include>
-    <include name="orange" displayName="${string.settings.color.orange}">./settings/colors/orange.xml</include>
-    <include name="yellow" displayName="${string.settings.color.yellow}">./settings/colors/yellow.xml</include>
-    <include name="green" displayName="${string.settings.color.green}">./settings/colors/green.xml</include>
-    <include name="teal" displayName="${string.settings.color.teal}">./settings/colors/teal.xml</include>
-    <include name="gray" displayName="${string.settings.color.gray}">./settings/colors/gray.xml</include>
-    <include name="brown" displayName="${string.settings.color.beige}">./settings/colors/brown.xml</include>
-  </subset>
   
   <subset name="Background" displayName="${string.settings.backgroundStyle}">
     <include name="bgScanlines" displayName="${string.settings.backgroundStyle.scanlines}"/>
@@ -71,6 +59,8 @@
     <!-- <include name="5-3" displayName="5:3" /> -->
   </subset>
 
+  <include>./settings/colors/default.xml</include>
+  
   <include>./settings/variables/general.xml</include>
   <include ifSubset="Ratio:5-3">./settings/variables/ratio53.xml</include>
 

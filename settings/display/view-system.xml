@@ -9,30 +9,26 @@
   <!-- Carousel Config -->
   <view name="system">
 
+    <image name="statusBar" extra="true" ifSubset="StatusBar:statusHidden">
+      <visible>false</visible>
+    </image>
+
     <!-- Cards position -->
     <carousel name="systemcarousel">
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <size>0.33333333 1.3</size>
+      <size>1 1</size>
 
-      <logoSize>0.2 1</logoSize>
+      <logoSize>1 1</logoSize>
       <logoScale>1.375</logoScale>
       <maxLogoCount>5</maxLogoCount>
-      <logoPos>-0.25 0</logoPos>
+      <logoPos>0 0</logoPos>
 
-      <color>00000000</color>
+      <color>${bgColor}</color>
 
-      <type>vertical_wheel</type>
-      <logoRotation>5</logoRotation>
-      <logoRotationOrigin>-10 0.5</logoRotationOrigin>
+      <type>horizontal</type>
 
       <defaultTransition>instant</defaultTransition>
-      <systemInfoDelay>2000</systemInfoDelay>
-    </carousel>
-
-    <carousel name="systemcarousel" ifSubset="Ratio:5-3">
-      <logoRotation>5</logoRotation>
-      <logoRotationOrigin>-9.5 0.5</logoRotationOrigin>
     </carousel>
 
     <!-- System Name -->
@@ -104,7 +100,7 @@
 
     <image name="logo" ifSubset="Logos:styleMono">
       <path>./assets/logos/mono/${system.theme}.svg</path>
-      <color>${primaryColorAlt}</color>
+      <color>${bgColorAlt}</color>
     </image>
 
     <!-- Logo Fallback -->
@@ -114,7 +110,7 @@
       <fontSize>${fontSizeH2}</fontSize>
       <lineSpacing>0.7</lineSpacing>,
 
-      <color>${primaryColorAlt}</color>
+      <color>${fgColor}</color>
     </text>
 
     <!-- System Background -->

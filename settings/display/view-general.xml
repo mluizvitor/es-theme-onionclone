@@ -8,8 +8,21 @@
 
   <!--Configurações de ajuda-->
   <view name="system, basic, detailed, grid">
+    <image name="background">
+      <visible>false</visible>
+    </image>
+
+    <image name="statusBar" extra="true">
+      <path>./assets/background.png</path>
+      <size>1 0.125</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <color>${bgColorAlt}</color>
+      <zIndex>10</zIndex>
+    </image>
+
     <text name="logoText, md_name">
-      <color>${primaryColorLightVariant}</color>
+      <color>${fgColor}</color> 
     </text>
 
     <helpsystem name="help">
@@ -19,50 +32,9 @@
       <fontPath>${fontLight}</fontPath>
       <fontSize>${fontSizeSmall}</fontSize>
 
-      <textColor>${primaryColorLightVariant}</textColor>
-      <iconColor>${primaryColor}</iconColor>
+      <textColor>${fgColor}</textColor>
+      <iconColor>${accentColor}</iconColor>
     </helpsystem>
-
-    <image name="borderOverlay" extra="true">
-      <path>./assets/ratio32/borders.png</path>
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <size>1 1</size>
-      <zIndex>100</zIndex>
-    </image>
-
-    <image name="borderOverlay" extra="true" ifSubset="Ratio:4-3">
-      <path>./assets/ratio43/borders.png</path>
-    </image>
-
-    <image name="borderOverlay" extra="true" ifSubset="Ratio:5-3">
-      <path>./assets/ratio53/borders.png</path>
-    </image>
-
-    <image name="help_system_background" extra="true" ifHelpPrompts="true">
-      <path>./assets/ratio32/help-system-bg.png</path>
-      <path ifSubset="Ratio:4-3">./assets/ratio43/help-system-bg.png</path>
-      <path ifSubset="Ratio:5-3">./assets/ratio53/help-system-bg.png</path>
-
-      <pos>0 0</pos>
-      <size>1 1</size>
-      <zIndex>90</zIndex>
-    </image>
-
-    <image name="backgroundScanlines" extra="true" ifSubset="Background:bgScanlines">
-      <path>./assets/ratio32/scanlines.png</path>
-      <path ifSubset="Ratio:4-3">./assets/ratio43/scanlines.png</path>
-      <path ifSubset="Ratio:5-3">./assets/ratio53/scanlines.png</path>
-      <opacity>0.2</opacity>
-      <size>1 1</size>
-      <origin>0.5 0.5</origin>
-      <pos>0.5 0.5</pos>
-      <zIndex>0</zIndex>
-
-      <storyboard>
-        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
-      </storyboard>
-    </image>
   </view>
 
   <view name="basic, detailed">
@@ -74,11 +46,11 @@
       <fontSize>${fontSizeBody}</fontSize>
       <alignment>left</alignment>
 
-      <selectedColor>${primaryColorDarkVariant}</selectedColor>
-
-      <selectorColor>${primaryColorAlt}</selectorColor>
-      <primaryColor>${primaryColorLightVariant}</primaryColor>
-      <secondaryColor>${primaryColorLightVariant}</secondaryColor>
+      <selectedColor>${fgColor}</selectedColor>
+      <selectorColor>${accentColor}</selectorColor>
+      
+      <primaryColor>${fgColor}</primaryColor>
+      <secondaryColor>${fgColor}</secondaryColor>
 
       <selectorHeight>0.1</selectorHeight>      <!-- 32y-->
       <selectorHeight ifSubset="Ratio:5-3">0.08</selectorHeight>
@@ -94,6 +66,15 @@
 
   <!--Configurações comuns de views-->
   <view name="basic, detailed, grid">
+    <image name="backgroundExtra" extra="true">
+      <path>./assets/background.png</path>
+      <size>1 1</size>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <color>${bgColor}</color>
+      <zIndex>-10</zIndex>
+    </image>
+    
     <text name="logoText">
       <origin>0 0.5</origin>      <!--vertical center-->
       <size>0.7 ${fontSizeH2}</size>
@@ -110,22 +91,6 @@
         <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
       </storyboard>
     </text>
-
-    <image name="background">
-      <path>./assets/systems/blurred/unknown.blurred.webp</path>
-      <path ifSubset="GameListBGStyle:bgNormal">./assets/systems/${system.theme}.webp</path>
-      <path ifSubset="GameListBGStyle:bgBlurred">./assets/systems/blurred/${system.theme}.blurred.webp</path>
-      <opacity>0.4</opacity>
-      <size>1 0</size>
-      <size ifSubset="Ratio:4-3">0 1</size>
-      <origin>0.5 0.5</origin>
-      <pos>0.5 0.5</pos>
-      <zIndex>-5</zIndex>
-
-      <storyboard>
-        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
-      </storyboard>
-    </image>
 
     <image name="background" ifSubset="Custom Backgrounds:customBg">
       <!-- Select primary background -->
@@ -149,10 +114,10 @@
       <size>0.04375</size>      <!-- 480x320 / 14 -->
 
       <filledPath>./assets/icons/star.svg</filledPath>
-      <color>${primaryColor}</color>
+      <color>${accentColor}</color>
 
       <unfilledPath>./assets/icons/star.svg</unfilledPath>
-      <unfilledColor>${primaryColorAlt}66</unfilledColor>
+      <unfilledColor>${bgColorAlt}66</unfilledColor>
     </rating>
   </view>
 
@@ -163,7 +128,7 @@
       <size ifSubset="Ratio:4-3">0.140625 ${fontSizeTiny}</size>
       <size ifSubset="Ratio:5-3">0.1 ${fontSizeTiny}</size>
       
-      <color>${primaryColorLightVariant}</color>
+      <color>${fgColor}</color>
       <fontSize>${fontSizeTiny}</fontSize>
       <fontPath>${typefaceRegular}</fontPath>
 
@@ -180,7 +145,7 @@
       <path>./assets/icons/calendar.png</path>
       <size>0.033333333 0</size>
       <size ifSubset="Ratio:5-3">0.025 0</size>
-      <color>${primaryColor}</color>
+      <color>${accentColor}</color>
       <zIndex>10</zIndex>
     </image>
   </view>
@@ -254,8 +219,8 @@
       <imagePath>./assets/pin.svg</imagePath>
 
       <color>454545</color>
-      <activityColor>${primaryColor}</activityColor>
-      <hotkeyColor>${primaryColor}</hotkeyColor>
+      <activityColor>${accentColor}</activityColor>
+      <hotkeyColor>${accentColor}</hotkeyColor>
     </controllerActivity>
   </view>
 </theme>

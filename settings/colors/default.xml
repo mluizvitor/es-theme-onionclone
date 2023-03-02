@@ -1,0 +1,18 @@
+<!--
+  Theme: Albedo
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <accentColor>7247C2</accentColor>
+
+    <fgColor>F9F7FC</fgColor>
+
+    <bgColor>242630</bgColor>
+    <bgColorAlt>1D1E25</bgColorAlt>
+  </variables>
+
+</theme>
