@@ -1,10 +1,139 @@
-### TODO
+# TODO
 
 - [x] Remove unused assets
-- [ ] Update color schemes to the used on OnionOS default theme
+- [x] Update color schemes to the used on OnionOS default theme
 - [ ] Update typefaces
 - [ ] Replace icons
 - [ ] Add new logo files
+
+# Logos
+## Systems
+
+- [ ] 3DO
+- [ ] Adventure Vision
+- [ ] Amiga
+- [ ] Amiga CD32
+- [ ] Amstrad CPC
+- [ ] Arduboy
+- [ ] Atari 800
+- [ ] Atari 2600
+- [ ] Atari 5200
+- [ ] Atari 7800
+- [ ] Atari Jaguar
+- [ ] Atari Lynx
+- [ ] Atari ST
+- [ ] Atomiswave
+- [ ] Build Engine
+- [ ] Casio PV-1000
+- [ ] Channel F
+- [ ] CHIP-8
+- [ ] ColecoVision
+- [ ] Commodore 16
+- [ ] Commodore 64
+- [ ] Commodore 128
+- [ ] Doom
+- [ ] Dreamcast
+- [ ] EasyRPG
+- [ ] Epoch PC 64/128
+- [ ] Famicom
+- [ ] Famicom Disk System
+- [ ] FinalBurn Neo
+- [ ] Gamate
+- [ ] GameKing
+- [ ] Game & Watch
+- [ ] Game Boy Advance and Hacks
+- [ ] Game Boy and Hacks
+- [ ] Game Boy Color and Hacks
+- [ ] Game Gear and Hacks
+- [ ] Game Master
+- [ ] Game Pocket Computer
+- [ ] Genesis and Hacks
+- [ ] Homebrew
+- [ ] Intellivision
+- [ ] J2ME
+- [ ] LaserDisc
+- [ ] LowRes NX
+- [ ] MAME
+- [ ] Master System
+- [ ] Mega-CD
+- [ ] Mega Drive and Hacks
+- [ ] Mega Duck
+- [ ] Microsoft DOS
+- [ ] MSX
+- [ ] MSX2
+- [ ] Naomi
+- [ ] Neo Geo
+- [ ] Neo Geo CD
+- [ ] Neo Geo Pocket
+- [ ] Neo Geo Pocket Color
+- [ ] Nintendo 64
+- [ ] Nintendo DS
+- [ ] Nintendo Entertainment System and Hacks
+- [ ] Odyssey²
+- [ ] OpenBOR
+- [ ] PC-88
+- [ ] PC-98
+- [ ] PC-FX
+- [ ] PC Engine
+- [ ] PC Engine CD
+- [ ] Philips CD-i
+- [ ] Pico-8
+- [ ] Pokémon Mini
+- [ ] Ports
+- [ ] PlayStation
+- [ ] PSP
+- [ ] PSP Minis
+- [ ] P/ECE
+- [ ] Satellaview
+- [ ] Saturn
+- [ ] ScummVM
+- [ ] Sega 32X
+- [ ] Sega CD
+- [ ] Sega SC-3000
+- [ ] Sega SG-1000
+- [ ] Super Cassette Vision
+- [ ] Super Famicom
+- [ ] Sharp X1
+- [ ] Sharp x68000
+- [ ] Sinclair ZX81
+- [ ] Sinclari ZX Spectrum
+- [ ] Super Nintendo and Hacks 
+- [ ] Super Nintendo MSU-1
+- [ ] Solarus
+- [ ] SuFami Turbo
+- [ ] SuperGrafx
+- [ ] Supervision
+- [ ] TurboGrafx 16
+- [ ] TurboGrafx CD
+- [ ] TIC-80
+- [ ] TV-Computer
+- [ ] Uzebox
+- [ ] Vectrex
+- [ ] VIC-20
+- [ ] VideoPac
+- [ ] Virtual Boy
+- [ ] WASM-4
+- [ ] Wolfenstein 3D
+- [ ] Wonderswan
+- [ ] Wonderswan Color
+- [ ] Z-Machine
+
+## Collections and Tools
+
+- [ ] 2 Players
+- [ ] 4 Players
+- [ ] All Games
+- [ ] Arcade
+- [ ] Custom Collections
+- [ ] Favorites
+- [ ] Last Played
+- [ ] Lightgun Games
+- [ ] MPlayer
+- [ ] Never Played
+- [ ] Retro Achievements
+- [ ] Screenshots
+- [ ] System Tools
+- [ ] Vertical Arcade
 
 <!-- # About
 
