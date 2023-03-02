@@ -1,0 +1,261 @@
+<!--
+  Theme: Albedo
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <!--Configurações de ajuda-->
+  <view name="system, basic, detailed, grid">
+    <text name="logoText, md_name">
+      <color>${primaryColorLightVariant}</color>
+    </text>
+
+    <helpsystem name="help">
+      <origin>0 1</origin>
+      <pos>0.016666667 0.98</pos>
+
+      <fontPath>${fontLight}</fontPath>
+      <fontSize>${fontSizeSmall}</fontSize>
+
+      <textColor>${primaryColorLightVariant}</textColor>
+      <iconColor>${primaryColor}</iconColor>
+    </helpsystem>
+
+    <image name="borderOverlay" extra="true">
+      <path>./assets/ratio32/borders.png</path>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>100</zIndex>
+    </image>
+
+    <image name="borderOverlay" extra="true" ifSubset="Ratio:4-3">
+      <path>./assets/ratio43/borders.png</path>
+    </image>
+
+    <image name="borderOverlay" extra="true" ifSubset="Ratio:5-3">
+      <path>./assets/ratio53/borders.png</path>
+    </image>
+
+    <image name="help_system_background" extra="true" ifHelpPrompts="true">
+      <path>./assets/ratio32/help-system-bg.png</path>
+      <path ifSubset="Ratio:4-3">./assets/ratio43/help-system-bg.png</path>
+      <path ifSubset="Ratio:5-3">./assets/ratio53/help-system-bg.png</path>
+
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <zIndex>90</zIndex>
+    </image>
+
+    <image name="backgroundScanlines" extra="true" ifSubset="Background:bgScanlines">
+      <path>./assets/ratio32/scanlines.png</path>
+      <path ifSubset="Ratio:4-3">./assets/ratio43/scanlines.png</path>
+      <path ifSubset="Ratio:5-3">./assets/ratio53/scanlines.png</path>
+      <opacity>0.2</opacity>
+      <size>1 1</size>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <zIndex>0</zIndex>
+
+      <storyboard>
+        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
+    </image>
+  </view>
+
+  <view name="basic, detailed">
+    <textlist name="gamelist">
+      <origin>0 0</origin>
+      <pos>0 0.15</pos>      <!-- 480x320 / 0x 48y -->
+
+      <fontPath>${typefaceRegular}</fontPath>
+      <fontSize>${fontSizeBody}</fontSize>
+      <alignment>left</alignment>
+
+      <selectedColor>${primaryColorDarkVariant}</selectedColor>
+
+      <selectorColor>${primaryColorAlt}</selectorColor>
+      <primaryColor>${primaryColorLightVariant}</primaryColor>
+      <secondaryColor>${primaryColorLightVariant}</secondaryColor>
+
+      <selectorHeight>0.1</selectorHeight>      <!-- 32y-->
+      <selectorHeight ifSubset="Ratio:5-3">0.08</selectorHeight>
+      <selectorOffsetY>0.00625</selectorOffsetY>
+      <lineSpacing>1.6</lineSpacing>
+
+      <storyboard>
+        <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
+    </textlist>
+  </view>
+
+  <!--Configurações comuns de views-->
+  <view name="basic, detailed, grid">
+    <text name="logoText">
+      <origin>0 0.5</origin>      <!--vertical center-->
+      <size>0.7 ${fontSizeH2}</size>
+      <pos>0.033333333 0.075</pos>      <!--480x320 / 16x 28y-->
+
+      <fontPath>${typefaceTitleBold}</fontPath>
+      <fontSize>${fontSizeH2}</fontSize>
+      <forceUppercase>1</forceUppercase>
+      <alignment>left</alignment>
+      <zIndex>10</zIndex>
+
+      <storyboard>
+        <animation property="y" from="0.1" to="0.074" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
+    </text>
+
+    <image name="background">
+      <path>./assets/systems/blurred/unknown.blurred.webp</path>
+      <path ifSubset="GameListBGStyle:bgNormal">./assets/systems/${system.theme}.webp</path>
+      <path ifSubset="GameListBGStyle:bgBlurred">./assets/systems/blurred/${system.theme}.blurred.webp</path>
+      <opacity>0.4</opacity>
+      <size>1 0</size>
+      <size ifSubset="Ratio:4-3">0 1</size>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <zIndex>-5</zIndex>
+
+      <storyboard>
+        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
+    </image>
+
+    <image name="background" ifSubset="Custom Backgrounds:customBg">
+      <!-- Select primary background -->
+      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.png</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.jpg</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.jpeg</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.webp</path>
+
+      <!-- Select alternative background - Intended to use a blurred image -->
+      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.png</path>
+      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.jpg</path>
+      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.jpeg</path>
+      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.webp</path>
+
+      <storyboard>
+        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
+    </image>
+
+    <rating name="md_rating">
+      <size>0.04375</size>      <!-- 480x320 / 14 -->
+
+      <filledPath>./assets/icons/star.svg</filledPath>
+      <color>${primaryColor}</color>
+
+      <unfilledPath>./assets/icons/star.svg</unfilledPath>
+      <unfilledColor>${primaryColorAlt}66</unfilledColor>
+    </rating>
+  </view>
+
+  <view name="detailed, grid">
+    <datetime name="md_releasedate">
+      <origin>0 0.5</origin>
+      <size>0.125 ${fontSizeTiny}</size>
+      <size ifSubset="Ratio:4-3">0.140625 ${fontSizeTiny}</size>
+      <size ifSubset="Ratio:5-3">0.1 ${fontSizeTiny}</size>
+      
+      <color>${primaryColorLightVariant}</color>
+      <fontSize>${fontSizeTiny}</fontSize>
+      <fontPath>${typefaceRegular}</fontPath>
+
+      <alignment>left</alignment>
+      <zIndex>10</zIndex>
+
+      <format>%Y/%m/%d</format>
+      <format ifSubset="Date Format:m-d-y">%m/%d/%Y</format>
+      <format ifSubset="Date Format:d-m-y">%d/%m/%Y</format>
+    </datetime>
+
+    <image name="md_releasedate_icon" extra="true">
+      <origin>0 0.5</origin>
+      <path>./assets/icons/calendar.png</path>
+      <size>0.033333333 0</size>
+      <size ifSubset="Ratio:5-3">0.025 0</size>
+      <color>${primaryColor}</color>
+      <zIndex>10</zIndex>
+    </image>
+  </view>
+
+  <!-- Clock Settings -->
+  <view name="screen">
+    <text name="clock">
+      <origin>0 0</origin>
+      <pos>0.73 0</pos>
+      <pos ifSubset="StatusBar:statusClock">0.85 0</pos>
+
+      <size>0.14 0.1</size>
+      
+      <fontPath>${typefaceRegular}</fontPath>
+      <fontSize>${fontSizeBody}</fontSize>
+      <lineSpacing>1</lineSpacing>
+      <alignment>center</alignment>
+      <padding>0 0.015 0 0</padding>
+      
+      <color>ffffff</color>
+    </text>
+
+    <text name="clock" ifSubset="StatusBar:statusBattery|statusHidden">
+      <visible>false</visible>
+    </text>
+
+    <text name="clock" ifSubset="Ratio:4-3">
+      <pos>0.705 0</pos>
+      <pos ifSubset="StatusBar:statusClock">0.845 0</pos>
+      <size>0.14 0.083333333</size>
+      <fontSize>${fontSizeSmall}</fontSize>
+    </text>
+    
+    <text name="clock" ifSubset="Ratio:5-3">
+      <pos>0.785 0</pos>
+      <pos ifSubset="StatusBar:statusClock">0.8875 0</pos>
+      <size>0.1 0.083333333</size>
+      <fontSize>${fontSizeBody}</fontSize>
+    </text>
+
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.933333333 0.025</pos>
+      <pos ifSubset="StatusBar:statusBattery">0.92 0.025</pos>
+
+      <pos ifSubset="Ratio:4-3">0.93 0.016</pos>
+      <pos ifSubset="Ratio:5-3">0.94 0.0175</pos>
+
+      <size>0.05</size>      <!-- 480x320 / 16x 16y -->
+
+      <color>ffffff</color>
+
+      <!-- Assets -->
+      <full>./assets/icons/battery-full.png</full>
+      <at75>./assets/icons/battery-75.png</at75>
+      <at50>./assets/icons/battery-50.png</at50>
+      <at25>./assets/icons/battery-25.png</at25>
+      <empty>./assets/icons/battery-empty.png</empty>
+      <incharge>./assets/icons/battery-charging.png</incharge>
+      <networkIcon>./assets/icons/wifi.png</networkIcon>
+    </batteryIndicator>
+
+    <batteryIndicator name="batteryIndicator" ifSubset="StatusBar:statusClock|statusHidden">
+      <visible>false</visible>
+    </batteryIndicator>
+
+    <controllerActivity name="controllerActivity">
+      <pos>0.0085 -0.03</pos>
+      <size>0.077083333</size>
+
+      <itemSpacing>0.1</itemSpacing>
+      <imagePath>./assets/pin.svg</imagePath>
+
+      <color>454545</color>
+      <activityColor>${primaryColor}</activityColor>
+      <hotkeyColor>${primaryColor}</hotkeyColor>
+    </controllerActivity>
+  </view>
+</theme>
