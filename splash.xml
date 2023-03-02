@@ -12,26 +12,36 @@
     </splash>
 
     <image name="background">
-      <!-- Leave default for better OS/device portability -->
+      <path>./assets/brand.png</path>
+      <size></size>
     </image>
     <image name="progressbar">
+      <path>./assets/progress=unfilled.png</path>
+      <tile>true</tile>
       <pos>0 1</pos>
       <origin>0 1</origin>
-      <size>1 0.025</size>
-      <color>1D1E25</color>
+      <maxSize>1 0.025</maxSize>
+      <minSize>1 0.025</minSize>
       <roundCorners>0</roundCorners>
+      <color>ffffff80</color>
     </image>
     <image name="progressbar:active">
+      <path>./assets/progress=filled.png</path>
+      <tile>true</tile>
       <pos>0 1</pos>
       <origin>0 1</origin>
-      <size>1 0.025</size>
-      <color>7247C2</color>
+      <maxSize>1 0.025</maxSize>
+      <minSize>1 0.025</minSize>
+      <roundCorners>0</roundCorners>
+      <color>ffffff</color>
     </image>
     <text name="label">
-      <alignment>center</alignment>
-      <fontPath>./assets/fonts/Teko/Teko-SemiBold.ttf</fontPath>
+      <alignment>left</alignment>
+      <origin>0 1</origin>
+      <fontPath>./assets/fonts/Exo_2/Exo2-BoldItalic.ttf</fontPath>
       <fontSize>0.05</fontSize>
       <color>ffffff</color>
+      <pos>0.016666667 0.95</pos>
     </text>
   </view>
 </theme>

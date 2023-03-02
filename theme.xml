@@ -59,9 +59,10 @@
     <!-- <include name="5-3" displayName="5:3" /> -->
   </subset>
 
+  <include>./settings/variables/general.xml</include>
+  
   <include>./settings/colors/default.xml</include>
   
-  <include>./settings/variables/general.xml</include>
   <include ifSubset="Ratio:5-3">./settings/variables/ratio53.xml</include>
 
   <include>./settings/display/view-general.xml</include>
