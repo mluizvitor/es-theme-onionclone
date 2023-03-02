@@ -23,7 +23,7 @@
       <selectorColor>${accentColor}</selectorColor>
 
       <color>${fgColor}B3</color>
-      <separatorColor>${accentColor}</separatorColor>
+      <separatorColor>${bgColorAlt}</separatorColor>
     </menuText>
 
     <menuText name="menufooter">
@@ -60,8 +60,8 @@
     </menuBackground>
 
     <menuButton name="menubutton">
-      <path>./assets/button-normal.png</path>
-      <filledPath>./assets/button-hover.png</filledPath>
+      <path>./assets/button=outline.png</path>
+      <filledPath>./assets/button=filled.png</filledPath>
     </menuButton>
 
     <menuSwitch name="menuswitch">
