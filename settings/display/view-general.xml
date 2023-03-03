@@ -21,15 +21,6 @@
       <zIndex>10</zIndex>
     </image>
 
-    <image name="statusBar2" extra="true">
-      <path>./assets/background.png</path>
-      <size>1 0.1</size>
-      <origin>0 1</origin>
-      <pos>0 1</pos>
-      <color>${bgColorAlt}</color>
-      <zIndex>10</zIndex>
-    </image>
-
     <helpsystem name="help">
       <origin>0 0.5</origin>
       <pos>0.016666667 0.95</pos>
@@ -75,21 +66,9 @@
       <size>0.1 0.083333333</size>
       <fontSize>${fontSizeBody}</fontSize>
     </text>
-
+    
     <batteryIndicator name="batteryIndicator">
-      <pos>0.92 0.025000</pos>
-
-      <pos ifSubset="Ratio:4-3">0.93 0.016</pos>
-      <pos ifSubset="Ratio:5-3">0.94 0.0175</pos>
-
-      <size>0.066667 0.075</size>      <!-- 480x320 / 16x 16y -->
-
-      <color>ffffff</color>
-      <itemSpacing>0.016667</itemSpacing>
-    </batteryIndicator>
-
-    <batteryIndicator name="batteryIndicator">
-      <pos>0.933333333 0.025</pos>
+      <pos>0.92 0.025</pos>
       <pos ifSubset="StatusBar:statusBattery">0.92 0.025</pos>
 
       <pos ifSubset="Ratio:4-3">0.93 0.016</pos>
@@ -115,13 +94,13 @@
     </batteryIndicator>
 
     <controllerActivity name="controllerActivity">
-      <pos>0.0085 -0.03</pos>
-      <size>0.077083333</size>
+      <pos>0.008333 0.012500</pos>
+      <size>0.020833 0.025000</size>
 
-      <itemSpacing>0.1</itemSpacing>
-      <imagePath>./assets/pin.svg</imagePath>
+      <itemSpacing>0.016667</itemSpacing>
+      <imagePath>./assets/icons/pin.png</imagePath>
 
-      <color>454545</color>
+      <color>${bgColor}</color>
       <activityColor>${accentColor}</activityColor>
       <hotkeyColor>${accentColor}</hotkeyColor>
     </controllerActivity>
