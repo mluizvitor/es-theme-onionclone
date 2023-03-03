@@ -22,11 +22,10 @@
       <logoScale>1.375</logoScale>
       <maxLogoCount>5</maxLogoCount>
       <logoPos>0 0</logoPos>
-
-      <color>${bgColor}</color>
-
       <type>horizontal</type>
 
+      <color>${bgColor}</color>
+      <zIndex>0</zIndex>
       <defaultTransition>instant</defaultTransition>
     </carousel>
 
