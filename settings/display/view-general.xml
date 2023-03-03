@@ -7,7 +7,7 @@
   <formatVersion>7</formatVersion>
 
   <!--Configurações de ajuda-->
-  <view name="system, basic, detailed, grid">
+  <view name="system, basic, detailed, video">
     <image name="background">
       <visible>false</visible>
     </image>
@@ -21,9 +21,14 @@
       <zIndex>10</zIndex>
     </image>
 
-    <text name="logoText, md_name">
-      <color>${fgColor}</color> 
-    </text>
+    <image name="statusBar2" extra="true">
+      <path>./assets/background.png</path>
+      <size>1 0.1</size>
+      <origin>0 1</origin>
+      <pos>0 1</pos>
+      <color>${bgColorAlt}</color>
+      <zIndex>10</zIndex>
+    </image>
 
     <helpsystem name="help">
       <origin>0 0.5</origin>
@@ -37,134 +42,19 @@
     </helpsystem>
   </view>
 
-  <view name="basic, detailed">
-    <textlist name="gamelist">
-      <origin>0 0</origin>
-      <pos>0 0.15</pos>      <!-- 480x320 / 0x 48y -->
-
-      <fontPath>${typefaceBody}</fontPath>
-      <fontSize>${fontSizeBody}</fontSize>
-      <alignment>left</alignment>
-
-      <selectedColor>${fgColor}</selectedColor>
-      <selectorColor>${accentColor}</selectorColor>
-      
-      <primaryColor>${fgColor}</primaryColor>
-      <secondaryColor>${fgColor}</secondaryColor>
-
-      <selectorHeight>0.1</selectorHeight>      <!-- 32y-->
-      <selectorHeight ifSubset="Ratio:5-3">0.08</selectorHeight>
-      <selectorOffsetY>0.00625</selectorOffsetY>
-      <lineSpacing>1.6</lineSpacing>
-
-      <storyboard>
-        <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut"/>
-        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
-      </storyboard>
-    </textlist>
-  </view>
-
-  <!--Configurações comuns de views-->
-  <view name="basic, detailed, grid">
-    <image name="backgroundExtra" extra="true">
-      <path>./assets/background.png</path>
-      <size>1 1</size>
-      <origin>0.5 0.5</origin>
-      <pos>0.5 0.5</pos>
-      <color>${bgColor}</color>
-      <zIndex>-10</zIndex>
-    </image>
-
-    <text name="logoText">
-      <origin>0 0.5</origin>      <!--vertical center-->
-      <size>0.7 ${fontSizeH2}</size>
-      <pos>0.033333333 0.075</pos>      <!--480x320 / 16x 28y-->
-
-      <fontPath>${typefaceTitle}</fontPath>
-      <fontSize>${fontSizeH2}</fontSize>
-      <forceUppercase>1</forceUppercase>
-      <alignment>left</alignment>
-      <zIndex>10</zIndex>
-
-      <storyboard>
-        <animation property="y" from="0.1" to="0.074" duration="300" mode="EaseOut"/>
-        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
-      </storyboard>
-    </text>
-
-    <image name="background" ifSubset="Custom Backgrounds:customBg">
-      <!-- Select primary background -->
-      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.png</path>
-      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.jpg</path>
-      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.jpeg</path>
-      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.webp</path>
-
-      <!-- Select alternative background - Intended to use a blurred image -->
-      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.png</path>
-      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.jpg</path>
-      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.jpeg</path>
-      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.webp</path>
-
-      <storyboard>
-        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
-      </storyboard>
-    </image>
-
-    <rating name="md_rating">
-      <size>0.04375</size>      <!-- 480x320 / 14 -->
-
-      <filledPath>./assets/icons/star.svg</filledPath>
-      <color>${accentColor}</color>
-
-      <unfilledPath>./assets/icons/star.svg</unfilledPath>
-      <unfilledColor>${bgColorAlt}66</unfilledColor>
-    </rating>
-  </view>
-
-  <view name="detailed, grid">
-    <datetime name="md_releasedate">
-      <origin>0 0.5</origin>
-      <size>0.125 ${fontSizeTiny}</size>
-      <size ifSubset="Ratio:4-3">0.140625 ${fontSizeTiny}</size>
-      <size ifSubset="Ratio:5-3">0.1 ${fontSizeTiny}</size>
-      
-      <color>${fgColor}</color>
-      <fontSize>${fontSizeTiny}</fontSize>
-      <fontPath>${typefaceBody}</fontPath>
-
-      <alignment>left</alignment>
-      <zIndex>10</zIndex>
-
-      <format>%Y/%m/%d</format>
-      <format ifSubset="Date Format:m-d-y">%m/%d/%Y</format>
-      <format ifSubset="Date Format:d-m-y">%d/%m/%Y</format>
-    </datetime>
-
-    <image name="md_releasedate_icon" extra="true">
-      <origin>0 0.5</origin>
-      <path>./assets/icons/calendar.png</path>
-      <size>0.033333333 0</size>
-      <size ifSubset="Ratio:5-3">0.025 0</size>
-      <color>${accentColor}</color>
-      <zIndex>10</zIndex>
-    </image>
-  </view>
-
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
       <origin>0 0</origin>
-      <pos>0.73 0</pos>
-      <pos ifSubset="StatusBar:statusClock">0.85 0</pos>
+      <pos>0.033333 0</pos>
+      <size>0.5 0.125</size>
 
-      <size>0.14 0.1</size>
-      
-      <fontPath>${typefaceBody}</fontPath>
+      <fontPath>${typefaceTitle}</fontPath>
       <fontSize>${fontSizeBody}</fontSize>
       <lineSpacing>1</lineSpacing>
-      <alignment>center</alignment>
-      <padding>0 0.015 0 0</padding>
-      
+      <alignment>left</alignment>
+      <padding>0 0.0375 0 0</padding>
+
       <color>ffffff</color>
     </text>
 
@@ -178,7 +68,7 @@
       <size>0.14 0.083333333</size>
       <fontSize>${fontSizeSmall}</fontSize>
     </text>
-    
+
     <text name="clock" ifSubset="Ratio:5-3">
       <pos>0.785 0</pos>
       <pos ifSubset="StatusBar:statusClock">0.8875 0</pos>
@@ -187,24 +77,37 @@
     </text>
 
     <batteryIndicator name="batteryIndicator">
+      <pos>0.92 0.025000</pos>
+
+      <pos ifSubset="Ratio:4-3">0.93 0.016</pos>
+      <pos ifSubset="Ratio:5-3">0.94 0.0175</pos>
+
+      <size>0.066667 0.075</size>      <!-- 480x320 / 16x 16y -->
+
+      <color>ffffff</color>
+      <itemSpacing>0.016667</itemSpacing>
+    </batteryIndicator>
+
+    <batteryIndicator name="batteryIndicator">
       <pos>0.933333333 0.025</pos>
       <pos ifSubset="StatusBar:statusBattery">0.92 0.025</pos>
 
       <pos ifSubset="Ratio:4-3">0.93 0.016</pos>
       <pos ifSubset="Ratio:5-3">0.94 0.0175</pos>
 
-      <size>0.05</size>      <!-- 480x320 / 16x 16y -->
-
+      <size>0.066667 0.075</size>      <!-- 480x320 / 32x 24y -->
       <color>ffffff</color>
 
+      <itemSpacing>0.016667</itemSpacing>
+
       <!-- Assets -->
-      <full>./assets/icons/battery-full.png</full>
-      <at75>./assets/icons/battery-75.png</at75>
-      <at50>./assets/icons/battery-50.png</at50>
-      <at25>./assets/icons/battery-25.png</at25>
-      <empty>./assets/icons/battery-empty.png</empty>
-      <incharge>./assets/icons/battery-charging.png</incharge>
-      <networkIcon>./assets/icons/wifi.png</networkIcon>
+      <full>./assets/icons/battery=full.png</full>
+      <at75>./assets/icons/battery=75.png</at75>
+      <at50>./assets/icons/battery=50.png</at50>
+      <at25>./assets/icons/battery=25.png</at25>
+      <empty>./assets/icons/battery=empty.png</empty>
+      <incharge>./assets/icons/battery=charging.png</incharge>
+      <networkIcon>./assets/icons/wifi=on.png</networkIcon>
     </batteryIndicator>
 
     <batteryIndicator name="batteryIndicator" ifSubset="StatusBar:statusClock|statusHidden">

@@ -65,8 +65,8 @@
     </menuButton>
 
     <menuSwitch name="menuswitch">
-      <pathOn>./assets/switch-on.png</pathOn>
-      <pathOff>./assets/switch-off.png</pathOff>
+      <pathOn>./assets/toggle=on.png</pathOn>
+      <pathOff>./assets/toggle=off.png</pathOff>
     </menuSwitch>
 
     <menuTextEdit name="menutextedit">

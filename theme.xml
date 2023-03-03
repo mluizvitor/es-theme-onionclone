@@ -68,8 +68,5 @@
   <include>./settings/display/view-general.xml</include>
   <include>./settings/display/view-system.xml</include>
   <include>./settings/display/view-menu.xml</include>
-  <include>./settings/display/view-basic.xml</include>
-  <include>./settings/display/view-detailed.xml</include>
-  <include>./settings/display/view-grid.xml</include>
-
+  <include>./settings/display/view-gamelist.xml</include>
 </theme>

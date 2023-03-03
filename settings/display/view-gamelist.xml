@@ -1,0 +1,148 @@
+<!--
+  Theme: Albedo
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <view name="basic, detailed, video">
+    <textlist name="gamelist">
+      <origin>0 0</origin>
+      <pos>0 0.15</pos>      <!-- 480x320 / 0x 32y -->
+
+      <size>1 0.9</size>      <!-- 480x320 / 480x 288y-->
+      <size ifHelpPrompts="true">1 0.8</size>      <!-- 480x320 / 208x 256y-->
+      <horizontalMargin>0.033333333</horizontalMargin>
+
+      <fontPath>${typefaceBody}</fontPath>
+      <fontSize>${fontSizeBody}</fontSize>
+      <alignment>left</alignment>
+
+      <selectedColor>${fgColor}</selectedColor>
+
+      <selectorColor>${accentColor}</selectorColor>
+      <primaryColor>${fgColor}</primaryColor>
+      <secondaryColor>${fgColor}</secondaryColor>
+
+      <selectorHeight>0.125</selectorHeight>
+      <selectorOffsetY>-0.025</selectorOffsetY>
+
+      <lineSpacing>2.65</lineSpacing>
+      <lineSpacing ifHelpPrompts="true">2.42</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:4-3">1.475</lineSpacing>
+      <lineSpacing ifSubset="Ratio:4-3" ifHelpPrompts="true">1.55</lineSpacing>
+
+      <lineSpacing ifSubset="Ratio:5-3">1.5</lineSpacing>
+      <lineSpacing ifSubset="Ratio:5-3" ifHelpPrompts="true">1.575</lineSpacing>
+    </textlist>
+
+    <textlist name="gamelist" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v">
+      <pos>0 0.125</pos>
+      <lineSpacing>2.1</lineSpacing>
+      <selectorHeight>0.075</selectorHeight>
+      <selectorOffsetY>0</selectorOffsetY>
+      <size>1 0.9</size>      <!-- 480x320 / 480x 288y-->
+      <size ifHelpPrompts="true">1 0.775</size>      <!-- 480x320 / 208x 256y-->
+    </textlist>
+
+    <text name="logoText">
+      <origin>0.5 0</origin>
+      <size>0.6 0.125</size>
+      <pos>0.5 0</pos>      <!--480x320 / 16x 28y-->
+
+      <fontPath>${typefaceTitle}</fontPath>
+      <fontSize>${fontSizeH2}</fontSize>
+      <forceUppercase>1</forceUppercase>
+      <alignment>center</alignment>
+      <zIndex>10</zIndex>
+      <color>${fgColor}</color>
+    </text>
+
+    <image name="backgroundExtra" extra="true">
+      <path>./assets/background.png</path>
+      <size>1 1</size>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <color>${bgColor}</color>
+      <zIndex>-10</zIndex>
+    </image>
+  </view>
+
+  <view name="detailed, video">
+    <image name="md_image">
+      <size>0 0.875</size>
+      <size ifHelpPrompts="true">0 0.775</size>
+      <pos>0.8 0.125</pos>
+      <origin>0.5 0</origin>
+      <zIndex>-5</zIndex>
+    </image>
+
+    <image name="md_marquee">
+      <size>0.3 0</size>
+      <origin>0.5 0</origin>
+      <pos>0.8 0.15</pos>
+      <zIndex>-4</zIndex>
+    </image>
+
+    <textlist name="gamelist">
+      <size>0.6 0.9</size>      <!-- 480x320 / 480x 288y-->
+      <size ifHelpPrompts="true">0.6 0.775</size>      <!-- 480x320 / 208x 256y-->
+    </textlist>
+
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
+      <visible>false</visible>
+    </text>
+
+    <text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_gametime, md_description, md_name">
+      <visible>false</visible>
+    </text>
+
+    <rating name="md_rating">
+      <unfilledPath>./assets/icons/star=empty.png</unfilledPath>
+      <filledPath>./assets/icons/star=filled.png</filledPath>
+      <size>0.075</size>
+      <origin>0 1</origin>
+      <pos>0.675 0.975</pos>
+      <pos ifHelpPrompts="true">0.675 0.8875</pos>
+    </rating>
+
+    <datetime name="md_releasedate, md_lastplayed">
+      <visible>false</visible>
+    </datetime>
+
+    <image name="background">
+      <size>0.6 1</size>
+    </image>
+
+    <image name="backgroundDetailed" extra="true">
+      <path>./assets/background.png</path>
+      <opacity>1</opacity>
+      <size>0.6 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>0</zIndex>
+      <color>${bgColor}</color>
+
+      <zIndex>0</zIndex>
+    </image>
+  </view>
+
+  <view name="video">
+    <video name="md_video">
+      <maxSize>1 0.875</maxSize>
+      <maxSize ifHelpPrompts="true">1 0.775</maxSize>
+      <pos>0.8 0.125</pos>
+      <origin>0.5 0</origin>
+      <zIndex>-5</zIndex>
+      <delay>1.5</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
+    </video>
+
+    <image name="md_image, md_marquee">
+      <visible>false</visible>
+    </image>
+  </view>
+</theme>
