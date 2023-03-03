@@ -3,8 +3,25 @@
 - [x] Remove unused assets
 - [x] Update color schemes to the used on OnionOS default theme
 - [x] Update typefaces
-- [ ] Replace icons
+- [x] Replace icons 
 - [ ] Add new logo files
+
+- [ ] Basic view
+  - [ ] 3:2
+  - [ ] 4:3
+  - [ ] 5:3
+- [ ] Detailed view
+  - [ ] 3:2
+  - [ ] 4:3
+  - [ ] 5:3
+- [ ] Video + Basic
+  - [ ] 3:2
+  - [ ] 4:3
+  - [ ] 5:3
+- [ ] Video + Detailed
+  - [ ] 3:2
+  - [ ] 4:3
+  - [ ] 5:3
 
 # Logos
 ## Systems

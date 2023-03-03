@@ -76,7 +76,7 @@
 
     <menuIcons name="menuicons">
       <iconSystem>./assets/icons/menu/settings.png</iconSystem>
-      <iconUpdates>./assets/icons/menu/buy-upgrade.png</iconUpdates>
+      <iconUpdates>./assets/icons/menu/upgrade.png</iconUpdates>
       <iconControllers>./assets/icons/menu/game-controller.png</iconControllers>
       <iconGames>./assets/icons/menu/joystick.png</iconGames>
       <iconUI>./assets/icons/menu/paint-brush.png</iconUI>
@@ -84,7 +84,7 @@
       <iconNetwork>./assets/icons/menu/wi-fi.png</iconNetwork>
       <iconScraper>./assets/icons/menu/image.png</iconScraper>
       <iconAdvanced>./assets/icons/menu/library.png</iconAdvanced>
-      <iconQuit>./assets/icons/menu/exit-sign.png</iconQuit>
+      <iconQuit>./assets/icons/menu/exit.png</iconQuit>
       <iconRetroachievements>./assets/icons/menu/trophy.png</iconRetroachievements>
       <iconKodi>./assets/icons/menu/cinema-film-play.png</iconKodi>
       <iconRestart>./assets/icons/menu/reboot.png</iconRestart>
