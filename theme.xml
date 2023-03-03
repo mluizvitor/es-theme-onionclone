@@ -10,39 +10,11 @@
   <include lang="es">./settings/langs/es.xml</include>
   <include lang="pt">./settings/langs/pt.xml</include>
 
-  
-  <subset name="Background" displayName="${string.settings.backgroundStyle}">
-    <include name="bgScanlines" displayName="${string.settings.backgroundStyle.scanlines}"/>
-    <include name="bgClean" displayName="${string.settings.backgroundStyle.clean}"/>
-  </subset>
-
-  <subset name="GameListBGStyle" displayName="${string.settings.gamelistBackgroundStyle}">
-    <include name="bgBlurred" displayName="${string.settings.gamelistBackgroundStyle.blurred}"/>
-    <include name="bgNormal" displayName="${string.settings.gamelistBackgroundStyle.normal}"/>
-    <include name="bgNone" displayName="${string.settings.gamelistBackgroundStyle.none}"/>
-  </subset>
-
-  <subset name="Custom Backgrounds" displayName="${string.settings.backgroundEntry}">
-    <include name="defaultBg" displayName="${string.settings.backgroundEntry.defaultBg}"/>
-    <include name="customBg" displayName="${string.settings.backgroundEntry.customBg}"/>
-  </subset>
-
-  <subset name="Logos" displayName="${string.settings.logoStyle}">
-    <include name="styleColor" displayName="${string.settings.logoStyle.color}"/>
-    <include name="styleMono" displayName="${string.settings.logoStyle.mono}"/>
-  </subset>
-
   <subset name="StatusBar" displayName="${string.settings.statusBar}">
     <include name="statusComplete" displayName="${string.settings.clock} + ${string.settings.battery}"/>
     <include name="statusClock" displayName="${string.settings.clock}"/>
     <include name="statusBattery" displayName="${string.settings.battery}"/>
     <include name="statusHidden" displayName="${string.settings.hidden}"/>
-  </subset>
-
-  <subset name="Date Format" displayName="${string.settings.dateFormat}" appliesTo="grid">
-    <include name="y-m-d" displayName="YYYY/MM/DD"/>
-    <include name="m-d-y" displayName="MM/DD/YYYY"/>
-    <include name="d-m-y" displayName="DD/MM/YYYY"/>
   </subset>
 
   <subset name="Ratio" displayName="${string.settings.screenRatio}">
@@ -60,10 +32,9 @@
   </subset>
 
   <include>./settings/variables/general.xml</include>
-  
-  <include>./settings/colors/default.xml</include>
-  
   <include ifSubset="Ratio:5-3">./settings/variables/ratio53.xml</include>
+
+  <include>./settings/colors/default.xml</include>
 
   <include>./settings/display/view-general.xml</include>
   <include>./settings/display/view-system.xml</include>

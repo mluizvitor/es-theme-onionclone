@@ -7,38 +7,13 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <string.settings.yes>Sí</string.settings.yes>
-    <string.settings.no>No</string.settings.no>
-
     <!-- Settings Titles -->
     <string.settings.screenRatio>Formato de pantalla</string.settings.screenRatio>
+
     <string.settings.statusBar>Barra de estado</string.settings.statusBar>
-    <string.settings.dateFormat>Formato de fecha</string.settings.dateFormat>
-
-    <string.settings.backgroundStyle>Superposición de fondo</string.settings.backgroundStyle>
-    <string.settings.backgroundStyle.scanlines>Líneas de exploración</string.settings.backgroundStyle.scanlines>
-    <string.settings.backgroundStyle.clean>Limpio</string.settings.backgroundStyle.clean>
-
-    <string.settings.logoStyle>Estilo de logotipos</string.settings.logoStyle>
-    <string.settings.logoStyle.color>Colorido</string.settings.logoStyle.color>
-    <string.settings.logoStyle.mono>Monocromo</string.settings.logoStyle.mono>
-
     <string.settings.clock>Reloj</string.settings.clock>
     <string.settings.battery>Batería</string.settings.battery>
     <string.settings.hidden>Oculta</string.settings.hidden>
-
-    <string.settings.backgroundEntry>Fondo del tema</string.settings.backgroundEntry>
-    <string.settings.backgroundEntry.defaultBg>Por defecto</string.settings.backgroundEntry.defaultBg>
-    <string.settings.backgroundEntry.customBg>Personalizado</string.settings.backgroundEntry.customBg>
-
-    <string.settings.gamelistBackgroundStyle>Estilo de fondo de la lista de juegos</string.settings.gamelistBackgroundStyle>
-    <string.settings.gamelistBackgroundStyle.blurred>Borroso</string.settings.gamelistBackgroundStyle.blurred>
-    <string.settings.gamelistBackgroundStyle.normal>Normal</string.settings.gamelistBackgroundStyle.normal>
-    <string.settings.gamelistBackgroundStyle.none>Sin fondo</string.settings.gamelistBackgroundStyle.none>
-
-    <!-- Interface Texts -->
-    <string.view.detailed.description>Descripción</string.view.detailed.description>
-
   </variables>
 
 </theme>

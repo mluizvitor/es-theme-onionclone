@@ -7,37 +7,13 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <string.settings.yes>Yes</string.settings.yes>
-    <string.settings.no>No</string.settings.no>
-
     <!-- Settings Titles -->
     <string.settings.screenRatio>Screen ratio</string.settings.screenRatio>
+
     <string.settings.statusBar>Status bar</string.settings.statusBar>
-    <string.settings.dateFormat>Date format</string.settings.dateFormat>
-
-    <string.settings.backgroundStyle>Background overlay</string.settings.backgroundStyle>
-    <string.settings.backgroundStyle.scanlines>Scanlines</string.settings.backgroundStyle.scanlines>
-    <string.settings.backgroundStyle.clean>Clean</string.settings.backgroundStyle.clean>
-
-    <string.settings.logoStyle>Logos style</string.settings.logoStyle>
-    <string.settings.logoStyle.color>Colored</string.settings.logoStyle.color>
-    <string.settings.logoStyle.mono>Monochrome</string.settings.logoStyle.mono>
-    
     <string.settings.clock>Clock</string.settings.clock>
     <string.settings.battery>Battery</string.settings.battery>
     <string.settings.hidden>Hidden</string.settings.hidden>
-    
-    <string.settings.backgroundEntry>Theme Background</string.settings.backgroundEntry>
-    <string.settings.backgroundEntry.defaultBg>Default</string.settings.backgroundEntry.defaultBg>
-    <string.settings.backgroundEntry.customBg>Custom</string.settings.backgroundEntry.customBg>
-
-    <string.settings.gamelistBackgroundStyle>Game list background</string.settings.gamelistBackgroundStyle>
-    <string.settings.gamelistBackgroundStyle.blurred>Blurred</string.settings.gamelistBackgroundStyle.blurred>
-    <string.settings.gamelistBackgroundStyle.normal>Normal</string.settings.gamelistBackgroundStyle.normal>
-    <string.settings.gamelistBackgroundStyle.none>No background</string.settings.gamelistBackgroundStyle.none>
-
-    <!-- Interface Texts -->
-    <string.view.detailed.description>Description</string.view.detailed.description>
   </variables>
 
 </theme>

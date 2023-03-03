@@ -7,38 +7,13 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <string.settings.yes>Sim</string.settings.yes>
-    <string.settings.no>Não</string.settings.no>
-
     <!-- Settings Titles -->
     <string.settings.screenRatio>Proporção da tela</string.settings.screenRatio>
+
     <string.settings.statusBar>Barra de status</string.settings.statusBar>
-    <string.settings.dateFormat>Formato da data</string.settings.dateFormat>
-
-    <string.settings.backgroundStyle>Sobreposição do plano de fundo</string.settings.backgroundStyle>
-    <string.settings.backgroundStyle.scanlines>Linhas de varredura</string.settings.backgroundStyle.scanlines>
-    <string.settings.backgroundStyle.clean>Limpo</string.settings.backgroundStyle.clean>
-    
-    <string.settings.logoStyle>Estilo dos logos</string.settings.logoStyle>
-    <string.settings.logoStyle.color>Colorido</string.settings.logoStyle.color>
-    <string.settings.logoStyle.mono>Monocromático</string.settings.logoStyle.mono>
-
     <string.settings.clock>Relógio</string.settings.clock>
     <string.settings.battery>Bateria</string.settings.battery>
     <string.settings.hidden>Oculta</string.settings.hidden>
-
-    <string.settings.backgroundEntry>Plano de Fundo do Tema</string.settings.backgroundEntry>
-    <string.settings.backgroundEntry.defaultBg>Padrão</string.settings.backgroundEntry.defaultBg>
-    <string.settings.backgroundEntry.customBg>Personalizado</string.settings.backgroundEntry.customBg>
-
-    <string.settings.gamelistBackgroundStyle>Estilo de fundo da lista de jogos</string.settings.gamelistBackgroundStyle>
-    <string.settings.gamelistBackgroundStyle.blurred>Desfocado</string.settings.gamelistBackgroundStyle.blurred>
-    <string.settings.gamelistBackgroundStyle.normal>Normal</string.settings.gamelistBackgroundStyle.normal>
-    <string.settings.gamelistBackgroundStyle.none>Sem plano de fundo</string.settings.gamelistBackgroundStyle.none>
-
-    <!-- Interface Texts -->
-    <string.view.detailed.description>Descrição</string.view.detailed.description>
-
   </variables>
 
 </theme>
