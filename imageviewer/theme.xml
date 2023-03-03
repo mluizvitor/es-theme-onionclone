@@ -1,0 +1,121 @@
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <include>./../settings/variables/general.xml</include>
+  <include>./../settings/colors/default.xml</include>
+  <include>./../settings/display/view-general.xml</include>
+
+  <view name="detailed">
+    <textlist name="gamelist">
+      <origin>0 0</origin>
+      <pos>0 0.625</pos>      <!-- 480x320 / 0x 32y -->
+
+      <size>1 0.375</size>      <!-- 480x320 / 480x 120y-->
+      <size ifHelpPrompts="true">1 0.3</size>      <!-- 480x320 / 208x 256y-->
+      <horizontalMargin>0.033333333</horizontalMargin>
+
+      <fontPath>./.${typefaceBody}</fontPath>
+      <fontSize>${fontSizeSmall}</fontSize>
+      <alignment>left</alignment>
+
+      <selectedColor>${fgColor}</selectedColor>
+      <selectorColor>${accentColor}</selectorColor>
+      <primaryColor>${fgColor}</primaryColor>
+      <secondaryColor>${fgColor}</secondaryColor>
+
+      <lineSpacing>1.8</lineSpacing>
+      <lineSpacing ifHelpPrompts="true">1.45</lineSpacing>
+
+      <!-- <lineSpacing ifSubset="Ratio:4-3">1.475</lineSpacing>
+      <lineSpacing ifSubset="Ratio:4-3" ifHelpPrompts="true">1.55</lineSpacing> -->
+
+      <!-- <lineSpacing ifSubset="Ratio:5-3">1.5</lineSpacing>
+      <lineSpacing ifSubset="Ratio:5-3" ifHelpPrompts="true">1.575</lineSpacing> -->
+    </textlist>
+
+    <image name="md_image">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.3125</pos>
+      <minSize>0 0</minSize>
+      <maxSize>0.966666667 0.575</maxSize>
+      <horizontalAlignment>center</horizontalAlignment>
+      <verticalAlignment>center</verticalAlignment>
+    </image>
+
+    <image name="screenshotViewBg" extra="true">
+      <path>./../assets/background.png</path>
+      <pos>0 0</pos>
+      <size>1 1</size>      <!-- 480x320 / 480x 288y-->
+      <color>111217</color>
+    </image>
+
+    <image name="screenshotList" extra="true">
+      <path>./../assets/background.png</path>
+      <pos>0 0.625</pos>
+      <size>1 0.4</size>      <!-- 480x320 / 480x 288y-->
+      <size ifHelpPrompts="true">1 0.3</size>      <!-- 480x320 / 208x 256y-->
+      <color>${bgColor}</color>
+    </image>
+
+    <image name="helpBg" extra="true" ifHelpPrompts="true">
+      <path>./../assets/background.png</path>
+      <pos>0 1</pos>
+      <origin>0 1</origin>
+      <size>1 0.075</size>      <!-- 480x320 / 480x 288y-->
+      <color>${bgColorAlt}</color>
+    </image>
+
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
+      <visible>false</visible>
+    </text>
+
+    <text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_gametime, md_description, md_name">
+      <visible>false</visible>
+    </text>
+
+    <rating name="md_rating">
+      <visible>false</visible>
+    </rating>
+
+    <helpsystem name="help">
+      <origin>0 0.5</origin>
+      <pos>0.016666667 0.9625</pos>
+
+      <fontPath>./.${typefaceTitle}</fontPath>
+      <fontSize>${fontSizeSmall}</fontSize>
+
+      <textColor>${fgColor}80</textColor>
+      <iconColor>${fgColor}</iconColor>
+    </helpsystem>
+  </view>
+
+  <view name="system">
+    <helpsystem name="help">
+      <origin>0 0.5</origin>
+      <pos>0.016666667 0.95</pos>
+
+      <fontPath>./.${typefaceTitle}</fontPath>
+      <fontSize>${fontSizeBody}</fontSize>
+
+      <textColor>${fgColor}</textColor>
+      <iconColor>${accentColor}</iconColor>
+    </helpsystem>
+
+    <image name="statusBar" extra="true">
+      <path>./../assets/background.png</path>
+      <size>1 0.125</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <color>${bgColorAlt}</color>
+      <zIndex>10</zIndex>
+    </image>
+
+    <text name="logoText">
+      <origin>0 0</origin>
+      <fontPath>./.${typefaceBody}</fontPath>
+      <fontSize>${fontSizeH2}</fontSize>
+      <lineSpacing>0.7</lineSpacing>
+      <color>${fgColor}</color>
+    </text>
+  </view>
+</theme>

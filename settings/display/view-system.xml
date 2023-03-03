@@ -29,7 +29,7 @@
       <defaultTransition>instant</defaultTransition>
     </carousel>
 
-    
+
     <!-- Total games per system -->
     <text name="systemInfo">
       <visible>false</visible>
@@ -50,8 +50,7 @@
       <origin>0 0</origin>
       <fontPath>${typefaceBody}</fontPath>
       <fontSize>${fontSizeH2}</fontSize>
-      <lineSpacing>0.7</lineSpacing>,
-
+      <lineSpacing>0.7</lineSpacing>
       <color>${fgColor}</color>
     </text>
   </view>
