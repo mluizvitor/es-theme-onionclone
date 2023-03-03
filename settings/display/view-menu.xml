@@ -22,7 +22,7 @@
       <selectedColor>${fgColor}</selectedColor>
       <selectorColor>${accentColor}</selectorColor>
 
-      <color>${fgColor}B3</color>
+      <color>${fgColorAlt}</color>
       <separatorColor>${bgColorAlt}</separatorColor>
     </menuText>
 
