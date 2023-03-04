@@ -6,20 +6,16 @@
 - [x] Replace icons 
 - [ ] Add new logo files
 
-- [ ] Basic view
-  - [ ] 3:2
+- [x] Basic view
+  - [x] 3:2
   - [ ] 4:3
   - [ ] 5:3
-- [ ] Detailed view
-  - [ ] 3:2
+- [x] Detailed view
+  - [x] 3:2
   - [ ] 4:3
   - [ ] 5:3
-- [ ] Video + Basic
-  - [ ] 3:2
-  - [ ] 4:3
-  - [ ] 5:3
-- [ ] Video + Detailed
-  - [ ] 3:2
+- [x] Video + Detailed
+  - [x] 3:2
   - [ ] 4:3
   - [ ] 5:3
 

@@ -72,8 +72,8 @@
 
   <view name="detailed, video">
     <image name="md_image">
-      <size>0 0.875</size>
-      <size ifHelpPrompts="true">0 0.775</size>
+      <maxSize>2 0.875</maxSize>
+      <maxSize ifHelpPrompts="true">2 0.775</maxSize>
       <pos>0.8 0.125</pos>
       <origin>0.5 0</origin>
       <zIndex>-5</zIndex>
@@ -131,8 +131,8 @@
 
   <view name="video">
     <video name="md_video">
-      <maxSize>1 0.875</maxSize>
-      <maxSize ifHelpPrompts="true">1 0.775</maxSize>
+      <maxSize>2 0.875</maxSize>
+      <maxSize ifHelpPrompts="true">2 0.775</maxSize>
       <pos>0.8 0.125</pos>
       <origin>0.5 0</origin>
       <zIndex>-5</zIndex>
