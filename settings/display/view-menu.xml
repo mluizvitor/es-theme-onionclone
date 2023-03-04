@@ -64,6 +64,11 @@
       <filledPath>./assets/button=filled.png</filledPath>
     </menuButton>
 
+    <menuButton name="menubutton" ifSubset="Ratio:5-3">
+      <path>./assets/button=outline@2.png</path>
+      <filledPath>./assets/button=filled@2.png</filledPath>
+    </menuButton>
+
     <menuSwitch name="menuswitch">
       <pathOn>./assets/icons/menu/toggle=on.png</pathOn>
       <pathOff>./assets/icons/menu/toggle=off.png</pathOff>
