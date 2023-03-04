@@ -91,5 +91,23 @@
       <iconShutdown>./assets/icons/menu/power-off-button.png</iconShutdown>
       <iconFastShutdown>./assets/icons/menu/power-off-button.png</iconFastShutdown>
     </menuIcons>
+
+    <menuIcons name="menuicons" ifSubset="Ratio:4-3">
+      <iconSystem>./assets/icons/menu/settings@2.png</iconSystem>
+      <iconUpdates>./assets/icons/menu/upgrade@2.png</iconUpdates>
+      <iconControllers>./assets/icons/menu/game-controller@2.png</iconControllers>
+      <iconGames>./assets/icons/menu/joystick@2.png</iconGames>
+      <iconUI>./assets/icons/menu/paint-brush@2.png</iconUI>
+      <iconSound>./assets/icons/menu/audio@2.png</iconSound>
+      <iconNetwork>./assets/icons/menu/wi-fi@2.png</iconNetwork>
+      <iconScraper>./assets/icons/menu/image@2.png</iconScraper>
+      <iconAdvanced>./assets/icons/menu/library@2.png</iconAdvanced>
+      <iconQuit>./assets/icons/menu/exit@2.png</iconQuit>
+      <iconRetroachievements>./assets/icons/menu/trophy@2.png</iconRetroachievements>
+      <iconKodi>./assets/icons/menu/cinema-film-play@2.png</iconKodi>
+      <iconRestart>./assets/icons/menu/reboot@2.png</iconRestart>
+      <iconShutdown>./assets/icons/menu/power-off-button@2.png</iconShutdown>
+      <iconFastShutdown>./assets/icons/menu/power-off-button@2.png</iconFastShutdown>
+    </menuIcons>
   </view>
 </theme>
