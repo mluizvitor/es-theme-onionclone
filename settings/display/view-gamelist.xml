@@ -28,11 +28,11 @@
       <selectorHeight>0.125</selectorHeight>
       <selectorOffsetY>-0.025</selectorOffsetY>
 
-      <lineSpacing>2.65</lineSpacing>
+      <lineSpacing>2.35</lineSpacing>
       <lineSpacing ifHelpPrompts="true">2.42</lineSpacing>
 
-      <lineSpacing ifSubset="Ratio:4-3">1.475</lineSpacing>
-      <lineSpacing ifSubset="Ratio:4-3" ifHelpPrompts="true">1.55</lineSpacing>
+      <lineSpacing ifSubset="Ratio:4-3">2.475</lineSpacing>
+      <lineSpacing ifSubset="Ratio:4-3" ifHelpPrompts="true">2.15</lineSpacing>
 
       <lineSpacing ifSubset="Ratio:5-3">1.5</lineSpacing>
       <lineSpacing ifSubset="Ratio:5-3" ifHelpPrompts="true">1.575</lineSpacing>
