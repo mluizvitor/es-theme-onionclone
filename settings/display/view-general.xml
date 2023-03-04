@@ -53,33 +53,14 @@
       <visible>false</visible>
     </text>
 
-    <text name="clock" ifSubset="Ratio:4-3">
-      <pos>0.705 0</pos>
-      <pos ifSubset="StatusBar:statusClock">0.845 0</pos>
-      <size>0.14 0.083333333</size>
-      <fontSize>${fontSizeSmall}</fontSize>
-    </text>
-
-    <text name="clock" ifSubset="Ratio:5-3">
-      <pos>0.785 0</pos>
-      <pos ifSubset="StatusBar:statusClock">0.8875 0</pos>
-      <size>0.1 0.083333333</size>
-      <fontSize>${fontSizeBody}</fontSize>
-    </text>
-
     <batteryIndicator name="batteryIndicator">
       <pos>0.92 0.025</pos>
-      <pos ifSubset="StatusBar:statusBattery">0.92 0.025</pos>
-
-      <pos ifSubset="Ratio:4-3">0.93 0.016</pos>
-      <pos ifSubset="Ratio:5-3">0.94 0.0175</pos>
 
       <size>0.066667 0.075</size>      <!-- 480x320 / 32x 24y -->
       <color>ffffff</color>
 
       <itemSpacing>0.016667</itemSpacing>
 
-      <!-- Assets -->
       <full>./assets/icons/battery=full.png</full>
       <at75>./assets/icons/battery=75.png</at75>
       <at50>./assets/icons/battery=50.png</at50>
