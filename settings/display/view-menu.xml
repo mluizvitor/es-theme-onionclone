@@ -65,13 +65,18 @@
     </menuButton>
 
     <menuSwitch name="menuswitch">
-      <pathOn>./assets/toggle=on.png</pathOn>
-      <pathOff>./assets/toggle=off.png</pathOff>
+      <pathOn>./assets/icons/menu/toggle=on.png</pathOn>
+      <pathOff>./assets/icons/menu/toggle=off.png</pathOff>
     </menuSwitch>
 
     <menuSwitch name="menuswitch" ifSubset="Ratio:4-3">
-      <pathOn>./assets/toggle=on@2.png</pathOn>
-      <pathOff>./assets/toggle=off@2.png</pathOff>
+      <pathOn>./assets/icons/menu/toggle=on@2.png</pathOn>
+      <pathOff>./assets/icons/menu/toggle=off@2.png</pathOff>
+    </menuSwitch>
+
+    <menuSwitch name="menuswitch" ifSubset="Ratio:5-3">
+      <pathOn>./assets/icons/menu/toggle=on@3.png</pathOn>
+      <pathOff>./assets/icons/menu/toggle=off@3.png</pathOff>
     </menuSwitch>
     
     <menuTextEdit name="menutextedit">
