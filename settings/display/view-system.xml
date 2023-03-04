@@ -14,14 +14,14 @@
 
     <!-- Cards position -->
     <carousel name="systemcarousel">
-      <origin>0 0</origin>
-      <pos>0 0</pos>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
       <size>1 1</size>
 
-      <logoSize>1 1</logoSize>
-      <logoScale>1.375</logoScale>
-      <maxLogoCount>5</maxLogoCount>
-      <logoPos>0 0</logoPos>
+      <logoSize>0.258333333 0.521875</logoSize>
+      <logoScale>1.25</logoScale>
+      <maxLogoCount>4</maxLogoCount>
+      <logoPos>0.370833333 0.24375</logoPos>
       <type>horizontal</type>
 
       <color>${bgColor}</color>
@@ -29,6 +29,31 @@
       <defaultTransition>instant</defaultTransition>
     </carousel>
 
+    <text name="systemName" extra="true">
+      <text>[${system.fullName}]</text>
+      <origin>0.5 0.5</origin>y
+      <pos>0.5 0.062500</pos>
+      <size>0.5 0.125</size>
+      <alignment>center</alignment>
+      <fontPath>${typefaceTitle}</fontPath>
+      <fontSize>${fontSizeSmall}</fontSize>
+      <lineSpacing>1.1</lineSpacing>
+      <color>ff6666</color>
+    </text>
+
+    <text name="earlyAccess" extra="true">
+      <text>Early Access · v0.230304</text>
+      <origin>1 1</origin>y
+      <pos>1 0.98</pos>
+      <size>1 0</size>
+      <alignment>right</alignment>
+      <fontPath>${typefaceBody}</fontPath>
+      <fontSize>${fontSizeSmall}</fontSize>
+      <lineSpacing>1.1</lineSpacing>
+      <color>ff666680</color>
+      <backgroundColor>ff66661f</backgroundColor>
+      <padding>0 0 0.04 0</padding>
+    </text>
 
     <!-- Total games per system -->
     <text name="systemInfo">
@@ -37,12 +62,8 @@
 
     <!-- System Logo -->
     <image name="logo">
+      <path>./assets/logos/placeholder.svg</path>
       <path>./assets/logos/${system.theme}.svg</path>
-    </image>
-
-    <image name="logo" ifSubset="Logos:styleMono">
-      <path>./assets/logos/mono/${system.theme}.svg</path>
-      <color>${bgColorAlt}</color>
     </image>
 
     <!-- Logo Fallback -->
