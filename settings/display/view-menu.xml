@@ -69,6 +69,11 @@
       <pathOff>./assets/toggle=off.png</pathOff>
     </menuSwitch>
 
+    <menuSwitch name="menuswitch" ifSubset="Ratio:4-3">
+      <pathOn>./assets/toggle=on@2.png</pathOn>
+      <pathOff>./assets/toggle=off@2.png</pathOff>
+    </menuSwitch>
+    
     <menuTextEdit name="menutextedit">
       <inactive>./assets/input_inactive.svg</inactive>
       <active>./assets/input_active.svg</active>
