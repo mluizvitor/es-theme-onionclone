@@ -89,6 +89,17 @@
       <networkIcon>./assets/icons/wifi=on.png</networkIcon>
     </batteryIndicator>
 
+    <batteryIndicator name="batteryIndicator" ifSubset="Ratio:4-3">
+      <size>0.075 0.075</size>
+      <full>./assets/icons/battery=full@2.png</full>
+      <at75>./assets/icons/battery=75@2.png</at75>
+      <at50>./assets/icons/battery=50@2.png</at50>
+      <at25>./assets/icons/battery=25@2.png</at25>
+      <empty>./assets/icons/battery=empty@2.png</empty>
+      <incharge>./assets/icons/battery=charging@2.png</incharge>
+      <networkIcon>./assets/icons/wifi=on@2.png</networkIcon>
+    </batteryIndicator>
+
     <batteryIndicator name="batteryIndicator" ifSubset="StatusBar:statusClock|statusHidden">
       <visible>false</visible>
     </batteryIndicator>
