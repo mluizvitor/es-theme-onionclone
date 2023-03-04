@@ -12,7 +12,7 @@
       <pos>0 0.15</pos>      <!-- 480x320 / 0x 32y -->
 
       <size>1 0.9</size>      <!-- 480x320 / 480x 288y-->
-      <size ifHelpPrompts="true">1 0.8</size>      <!-- 480x320 / 208x 256y-->
+      <size ifHelpPrompts="true">1 0.775</size>      <!-- 480x320 / 208x 256y-->
       <horizontalMargin>0.033333333</horizontalMargin>
 
       <fontPath>${typefaceBody}</fontPath>
@@ -25,24 +25,24 @@
       <primaryColor>${fgColor}</primaryColor>
       <secondaryColor>${fgColor}</secondaryColor>
 
-      <selectorHeight>0.125</selectorHeight>
-      <selectorOffsetY>-0.025</selectorOffsetY>
+      <selectorHeight ifArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v">0.125</selectorHeight>
+      <selectorHeight ifArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" ifSubset="Ratio:5-3">0.097222</selectorHeight>
 
-      <lineSpacing>2.35</lineSpacing>
+      <selectorOffsetY>-0.025</selectorOffsetY>
+      <selectorOffsetY ifSubset="Ratio:5-3">-0.02</selectorOffsetY>
+
+      <lineSpacing>2.325</lineSpacing>
       <lineSpacing ifHelpPrompts="true">2.42</lineSpacing>
 
       <lineSpacing ifSubset="Ratio:4-3">2.475</lineSpacing>
       <lineSpacing ifSubset="Ratio:4-3" ifHelpPrompts="true">2.15</lineSpacing>
 
-      <lineSpacing ifSubset="Ratio:5-3">1.5</lineSpacing>
-      <lineSpacing ifSubset="Ratio:5-3" ifHelpPrompts="true">1.575</lineSpacing>
+      <lineSpacing ifSubset="Ratio:5-3">2.415</lineSpacing>
+      <lineSpacing ifSubset="Ratio:5-3" ifHelpPrompts="true">2.1</lineSpacing>
     </textlist>
 
     <textlist name="gamelist" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v">
       <pos>0 0.125</pos>
-      <lineSpacing>2.1</lineSpacing>
-      <selectorHeight>0.075</selectorHeight>
-      <selectorOffsetY>0</selectorOffsetY>
       <size>1 0.9</size>      <!-- 480x320 / 480x 288y-->
       <size ifHelpPrompts="true">1 0.775</size>      <!-- 480x320 / 208x 256y-->
     </textlist>
@@ -67,6 +67,17 @@
       <pos>0.5 0.5</pos>
       <color>${bgColor}</color>
       <zIndex>-10</zIndex>
+    </image>
+
+    <image name="helpBackground" extra="true" ifHelpPrompts="true">
+      <path>./assets/background.png</path>
+      <opacity>1</opacity>
+      <size>1 0.1</size>
+      <origin>0 1</origin>
+      <pos>0 1</pos>
+      <zIndex>10</zIndex>
+      <color>${bgColor}</color>
+      <zIndex>10</zIndex>
     </image>
   </view>
 
@@ -129,7 +140,6 @@
       <pos>0 0</pos>
       <zIndex>0</zIndex>
       <color>${bgColor}</color>
-
       <zIndex>0</zIndex>
     </image>
   </view>
