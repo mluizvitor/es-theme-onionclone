@@ -108,6 +108,11 @@
       <pos ifHelpPrompts="true">0.675 0.8875</pos>
     </rating>
 
+    <rating name="md_rating" ifSubset="Ratio:4-3">
+      <unfilledPath>./assets/icons/star=empty@2.png</unfilledPath>
+      <filledPath>./assets/icons/star=filled@2.png</filledPath>
+    </rating>
+
     <datetime name="md_releasedate, md_lastplayed">
       <visible>false</visible>
     </datetime>
