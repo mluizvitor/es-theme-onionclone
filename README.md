@@ -9,15 +9,15 @@
 - [x] Basic view
   - [x] 3:2
   - [x] 4:3
-  - [ ] 5:3
+  - [x] 5:3
 - [x] Detailed view
   - [x] 3:2
   - [x] 4:3
-  - [ ] 5:3
+  - [x] 5:3
 - [x] Video + Detailed
   - [x] 3:2
   - [x] 4:3
-  - [ ] 5:3
+  - [x] 5:3
 
 # Logos
 ## Systems

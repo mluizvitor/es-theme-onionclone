@@ -124,6 +124,14 @@
       <filledPath>./assets/icons/star=filled@2.png</filledPath>
     </rating>
 
+    <rating name="md_rating" ifSubset="Ratio:5-3">
+      <size>0.0375 0.0625</size>
+      <pos>0.70625 0.975</pos>
+      <pos ifHelpPrompts="true">0.70625 0.8875</pos>
+      <unfilledPath>./assets/icons/star=empty@3.png</unfilledPath>
+      <filledPath>./assets/icons/star=filled@3.png</filledPath>
+    </rating>
+
     <datetime name="md_releasedate, md_lastplayed">
       <visible>false</visible>
     </datetime>
