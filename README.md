@@ -24,14 +24,14 @@
 
 - [ ] 3DO
 - [ ] Adventure Vision
-- [ ] Amiga
-- [ ] Amiga CD32
+- [x] Amiga
+- [x] Amiga CD32
 - [ ] Amstrad CPC
 - [ ] Arduboy
 - [ ] Atari 800
 - [ ] Atari 2600
-- [ ] Atari 5200
-- [ ] Atari 7800
+- [x] Atari 5200
+- [x] Atari 7800
 - [ ] Atari Jaguar
 - [ ] Atari Lynx
 - [ ] Atari ST
@@ -48,20 +48,20 @@
 - [ ] Dreamcast
 - [ ] EasyRPG
 - [ ] Epoch PC 64/128
-- [ ] Famicom
-- [ ] Famicom Disk System
+- [x] Famicom
+- [x] Famicom Disk System
 - [ ] FinalBurn Neo
 - [ ] Gamate
 - [ ] GameKing
-- [ ] Game & Watch
-- [ ] Game Boy Advance and Hacks
-- [ ] Game Boy and Hacks
-- [ ] Game Boy Color and Hacks
+- [x] Game & Watch
+- [x] Game Boy Advance and Hacks
+- [x] Game Boy and Hacks
+- [x] Game Boy Color and Hacks
 - [ ] Game Gear and Hacks
 - [ ] Game Master
 - [ ] Game Pocket Computer
 - [ ] Genesis and Hacks
-- [ ] Homebrew
+- [x] Homebrew
 - [ ] Intellivision
 - [ ] J2ME
 - [ ] LaserDisc
@@ -79,9 +79,9 @@
 - [ ] Neo Geo CD
 - [ ] Neo Geo Pocket
 - [ ] Neo Geo Pocket Color
-- [ ] Nintendo 64
-- [ ] Nintendo DS
-- [ ] Nintendo Entertainment System and Hacks
+- [x] Nintendo 64
+- [x] Nintendo DS
+- [x] Nintendo Entertainment System and Hacks
 - [ ] Odyssey²
 - [ ] OpenBOR
 - [ ] PC-88
@@ -92,7 +92,7 @@
 - [ ] Philips CD-i
 - [ ] Pico-8
 - [ ] Pokémon Mini
-- [ ] Ports
+- [x] Ports
 - [ ] PlayStation
 - [ ] PSP
 - [ ] PSP Minis
@@ -100,7 +100,7 @@
 - [ ] Satellaview
 - [ ] Saturn
 - [ ] ScummVM
-- [ ] Sega 32X
+- [x] Sega 32X
 - [ ] Sega CD
 - [ ] Sega SC-3000
 - [ ] Sega SG-1000
@@ -110,8 +110,8 @@
 - [ ] Sharp x68000
 - [ ] Sinclair ZX81
 - [ ] Sinclari ZX Spectrum
-- [ ] Super Nintendo and Hacks 
-- [ ] Super Nintendo MSU-1
+- [x] Super Nintendo and Hacks 
+- [x] Super Nintendo MSU-1
 - [ ] Solarus
 - [ ] SuFami Turbo
 - [ ] SuperGrafx
@@ -132,21 +132,22 @@
 - [ ] Z-Machine
 
 ## Collections and Tools
+Completed: 10 / 14
 
-- [ ] 2 Players
-- [ ] 4 Players
+- [x] 2 Players
+- [x] 4 Players
 - [ ] All Games
-- [ ] Arcade
-- [ ] Custom Collections
-- [ ] Favorites
-- [ ] Last Played
+- [x] Arcade
+- [x] Custom Collections
+- [x] Favorites
+- [x] Last Played
 - [ ] Lightgun Games
 - [ ] MPlayer
-- [ ] Never Played
-- [ ] Retro Achievements
-- [ ] Screenshots
+- [x] Never Played
+- [x] Retro Achievements
+- [x] Screenshots
 - [ ] System Tools
-- [ ] Vertical Arcade
+- [x] Vertical Arcade
 
 <!-- # About
 

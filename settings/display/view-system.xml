@@ -15,8 +15,8 @@
     <!-- Cards position -->
     <carousel name="systemcarousel">
       <origin>0.5 0.5</origin>
-      <pos>0.5 0.5</pos>
-      <size>1 1</size>
+      <pos>0.55 0.5</pos>
+      <size>1.1 1</size>
 
       <logoSize>0.258333333 0.521875</logoSize>
       <logoScale>1.25</logoScale>
@@ -29,22 +29,10 @@
       <defaultTransition>instant</defaultTransition>
     </carousel>
 
-    <text name="systemName" extra="true">
-      <text>[${system.fullName}]</text>
-      <origin>0.5 0.5</origin>y
-      <pos>0.5 0.062500</pos>
-      <size>0.5 0.125</size>
-      <alignment>center</alignment>
-      <fontPath>${typefaceTitle}</fontPath>
-      <fontSize>${fontSizeSmall}</fontSize>
-      <lineSpacing>1.1</lineSpacing>
-      <color>ff6666</color>
-    </text>
-
     <text name="earlyAccess" extra="true">
-      <text>Early Access · v0.230304</text>
-      <origin>1 1</origin>y
-      <pos>1 0.98</pos>
+      <text>Early Access · v${theme.version}</text>
+      <origin>0 0.5</origin>y
+      <pos>0 0.9</pos>
       <size>1 0</size>
       <alignment>right</alignment>
       <fontPath>${typefaceBody}</fontPath>
@@ -62,7 +50,6 @@
 
     <!-- System Logo -->
     <image name="logo">
-      <path>./assets/logos/placeholder.svg</path>
       <path>./assets/logos/${system.theme}.svg</path>
     </image>
 
@@ -71,7 +58,7 @@
       <origin>0 0</origin>
       <fontPath>${typefaceBody}</fontPath>
       <fontSize>${fontSizeH2}</fontSize>
-      <lineSpacing>0.7</lineSpacing>
+      <lineSpacing>0.825</lineSpacing>
       <color>${fgColor}</color>
     </text>
   </view>

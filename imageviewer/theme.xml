@@ -5,7 +5,7 @@
   <include>./../settings/colors/default.xml</include>
   <include>./../settings/display/view-general.xml</include>
 
-  <view name="detailed">
+  <view name="detailed, video">
     <textlist name="gamelist">
       <origin>0 0</origin>
       <pos>0 0.625</pos>      <!-- 480x320 / 0x 32y -->
@@ -117,5 +117,9 @@
       <lineSpacing>0.7</lineSpacing>
       <color>${fgColor}</color>
     </text>
+
+    <image name="logo">
+      <path>./../assets/logos/imageviewer.svg</path>
+    </image>
   </view>
 </theme>
