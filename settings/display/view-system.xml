@@ -27,6 +27,8 @@
       <color>${bgColor}</color>
       <zIndex>0</zIndex>
       <defaultTransition>instant</defaultTransition>
+      
+      <scrollSound>./assets/sounds/change.wav</scrollSound>
     </carousel>
 
     <text name="earlyAccess" extra="true">

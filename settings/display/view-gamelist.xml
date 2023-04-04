@@ -39,6 +39,8 @@
 
       <lineSpacing ifSubset="Ratio:5-3">2.415</lineSpacing>
       <lineSpacing ifSubset="Ratio:5-3" ifHelpPrompts="true">2.1</lineSpacing>
+
+      <scrollSound>./assets/sounds/change.wav</scrollSound>
     </textlist>
 
     <textlist name="gamelist" ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v">
