@@ -40,8 +40,7 @@
       <fontPath>${typefaceBody}</fontPath>
       <fontSize>${fontSizeSmall}</fontSize>
       <lineSpacing>1.1</lineSpacing>
-      <color>ff666680</color>
-      <backgroundColor>ff66661f</backgroundColor>
+      <color>ffffff48</color>
       <padding>0 0 0.04 0</padding>
     </text>
 
