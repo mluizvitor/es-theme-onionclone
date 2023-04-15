@@ -45,7 +45,7 @@
 - [ ] Commodore 64
 - [ ] Commodore 128
 - [ ] Doom
-- [ ] Dreamcast
+- [x] Dreamcast
 - [ ] EasyRPG
 - [ ] Epoch PC 64/128
 - [x] Famicom
@@ -57,24 +57,24 @@
 - [x] Game Boy Advance and Hacks
 - [x] Game Boy and Hacks
 - [x] Game Boy Color and Hacks
-- [ ] Game Gear and Hacks
+- [x] Game Gear and Hacks
 - [ ] Game Master
 - [ ] Game Pocket Computer
-- [ ] Genesis and Hacks
+- [x] Genesis and Hacks
 - [x] Homebrew
 - [ ] Intellivision
 - [ ] J2ME
 - [ ] LaserDisc
 - [ ] LowRes NX
 - [ ] MAME
-- [ ] Master System
-- [ ] Mega-CD
-- [ ] Mega Drive and Hacks
+- [x] Master System
+- [x] Mega-CD
+- [x] Mega Drive
 - [ ] Mega Duck
 - [ ] Microsoft DOS
 - [ ] MSX
 - [ ] MSX2
-- [ ] Naomi
+- [x] Naomi
 - [ ] Neo Geo
 - [ ] Neo Geo CD
 - [ ] Neo Geo Pocket
@@ -91,19 +91,19 @@
 - [ ] PC Engine CD
 - [ ] Philips CD-i
 - [ ] Pico-8
-- [ ] Pokémon Mini
+- [x] Pokémon Mini
 - [x] Ports
 - [ ] PlayStation
 - [ ] PSP
 - [ ] PSP Minis
 - [ ] P/ECE
-- [ ] Satellaview
-- [ ] Saturn
+- [x] Satellaview
+- [x] Saturn
 - [ ] ScummVM
 - [x] Sega 32X
-- [ ] Sega CD
-- [ ] Sega SC-3000
-- [ ] Sega SG-1000
+- [x] Sega CD
+- [x] Sega SC-3000
+- [x] Sega SG-1000
 - [ ] Super Cassette Vision
 - [ ] Super Famicom
 - [ ] Sharp X1
@@ -124,19 +124,19 @@
 - [ ] Vectrex
 - [ ] VIC-20
 - [ ] VideoPac
-- [ ] Virtual Boy
-- [ ] WASM-4
+- [x] Virtual Boy
+- [x] WASM-4
 - [ ] Wolfenstein 3D
 - [ ] Wonderswan
 - [ ] Wonderswan Color
 - [ ] Z-Machine
 
 ## Collections and Tools
-Completed: 10 / 14
+Completed: 12 / 14
 
 - [x] 2 Players
 - [x] 4 Players
-- [ ] All Games
+- [x] All Games
 - [x] Arcade
 - [x] Custom Collections
 - [x] Favorites
@@ -146,7 +146,7 @@ Completed: 10 / 14
 - [x] Never Played
 - [x] Retro Achievements
 - [x] Screenshots
-- [ ] System Tools
+- [x] System Tools
 - [x] Vertical Arcade
 
 <!-- # About
