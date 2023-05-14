@@ -28,22 +28,22 @@
 - [x] Amiga CD32
 - [ ] Amstrad CPC
 - [ ] Arduboy
-- [ ] Atari 800
-- [ ] Atari 2600
+- [x] Atari 800
+- [x] Atari 2600
 - [x] Atari 5200
 - [x] Atari 7800
-- [ ] Atari Jaguar
-- [ ] Atari Lynx
-- [ ] Atari ST
+- [x] Atari Jaguar
+- [x] Atari Lynx
+- [x] Atari ST
 - [ ] Atomiswave
 - [ ] Build Engine
 - [ ] Casio PV-1000
 - [ ] Channel F
 - [ ] CHIP-8
 - [ ] ColecoVision
-- [ ] Commodore 16
-- [ ] Commodore 64
-- [ ] Commodore 128
+- [x] Commodore 16
+- [x] Commodore 64
+- [x] Commodore 128
 - [ ] Doom
 - [x] Dreamcast
 - [ ] EasyRPG
@@ -122,7 +122,7 @@
 - [ ] TV-Computer
 - [ ] Uzebox
 - [ ] Vectrex
-- [ ] VIC-20
+- [x] VIC-20
 - [ ] VideoPac
 - [x] Virtual Boy
 - [x] WASM-4

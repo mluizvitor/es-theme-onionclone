@@ -6,7 +6,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   <variables>
-    <theme.version>0.230415</theme.version>
+    <theme.version>0.230513</theme.version>
   </variables>
 
   <include>./settings/langs/en.xml</include>

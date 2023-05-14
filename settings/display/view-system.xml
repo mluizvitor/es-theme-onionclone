@@ -45,7 +45,7 @@
       <fontPath>${typefaceBody}</fontPath>
       <fontSize>${fontSizeSmall}</fontSize>
       <lineSpacing>1.1</lineSpacing>
-      <color>ffffff48</color>
+      <color>ffffff32</color>
       <padding>0 0 0.04 0</padding>
     </text>
 
