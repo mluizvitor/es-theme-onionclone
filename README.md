@@ -93,9 +93,9 @@
 - [ ] Pico-8
 - [x] Pokémon Mini
 - [x] Ports
-- [ ] PlayStation
-- [ ] PSP
-- [ ] PSP Minis
+- [x] PlayStation
+- [x] PSP
+- [x] PSP Minis
 - [ ] P/ECE
 - [x] Satellaview
 - [x] Saturn
@@ -105,7 +105,7 @@
 - [x] Sega SC-3000
 - [x] Sega SG-1000
 - [ ] Super Cassette Vision
-- [ ] Super Famicom
+- [x] Super Famicom
 - [ ] Sharp X1
 - [ ] Sharp x68000
 - [ ] Sinclair ZX81
