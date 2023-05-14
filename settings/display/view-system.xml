@@ -15,14 +15,19 @@
     <!-- Cards position -->
     <carousel name="systemcarousel">
       <origin>0.5 0.5</origin>
-      <pos>0.55 0.5</pos>
-      <size>1.1 1</size>
+      <pos>0.6 0.5</pos>
+      <size>1.2 1</size>
 
-      <logoSize>0.258333333 0.521875</logoSize>
-      <logoScale>1.25</logoScale>
-      <maxLogoCount>4</maxLogoCount>
-      <logoPos>0.370833333 0.24375</logoPos>
+      <logoSize>0.2375 0.59375</logoSize>
+      <logoScale>1.15</logoScale>
+      <maxLogoCount>5</maxLogoCount>
+      <logoPos>0.1 0.225</logoPos>
       <type>horizontal</type>
+
+      <pos ifSubset="Ratio:5-3">0.625 0.5</pos>
+      <size ifSubset="Ratio:5-3">1.25 1</size>
+      <logoScale ifSubset="Ratio:5-3">1.1</logoScale>
+      <maxLogoCount ifSubset="Ratio:5-3">6</maxLogoCount>
 
       <color>${bgColor}</color>
       <zIndex>0</zIndex>
@@ -51,11 +56,12 @@
 
     <!-- System Logo -->
     <image name="logo">
-      <path>./assets/logos/${system.theme}.svg</path>
+      <path>./assets/logos/${system.theme}.webp</path>
     </image>
 
     <!-- Logo Fallback -->
     <text name="logoText">
+      <!-- <text>${system.theme}</text> -->
       <origin>0 0</origin>
       <fontPath>${typefaceBody}</fontPath>
       <fontSize>${fontSizeH2}</fontSize>

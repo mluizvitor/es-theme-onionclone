@@ -121,7 +121,7 @@
     </text>
 
     <image name="logo">
-      <path>./../assets/logos/imageviewer.svg</path>
+      <path>./../assets/logos/imageviewer.webp</path>
     </image>
   </view>
 </theme>
